@@ -1,23 +1,23 @@
 <template>
   <div id="navbar">
-
-    <div id="nav">
-        <div class="bar" id="nav1" v-bind:style="this.displayChange1">
+    <div class="navigation">
+      <div class="wrapper" id="nav1" v-bind:style="this.displayChange1">
+          <div class="nav English">
             <router-link to="/">Portfolio</router-link> |
             <router-link to="/resume">Resume</router-link> |
             <router-link to="/about">About</router-link> |
             <a v-on:click="changer" id="Ja">日本語</a>
-        </div>
-
-        <div class="bar" id="nav2" v-bind:style="this.displayChange2">
+          </div>
+      </div>
+      <div class="wrapper" id="nav2" v-bind:style="this.displayChange2">
+          <div class="nav Japanese">
             <router-link to="/portfoliojp">Portfolio</router-link> |
             <router-link to="/resumejp">Resume</router-link> |
             <router-link to="/aboutjp">About</router-link> |
             <a v-on:click="changer" id="En">English</a>
-        </div>
-
+          </div>
+      </div>
     </div>
-
   </div>
 </template>
 
@@ -33,6 +33,9 @@ export default {
     }
   },
   methods: {
+    scrollWin() {
+      window.scrollTo(0, 0);
+    },
     urlFinder(){
           this.url = document.URL
         //   console.log('this.url in method:', this.url)
@@ -107,23 +110,35 @@ export default {
 </script>
 
 <style>
-#nav {
-  margin-top: 2em;;
-  margin-bottom: 2em;
+.wrapper{
+  background-color:white;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
   text-align: center;
+  z-index:9;
+}
+.wrapper .Japanese{
+  padding-top: 14px;
+  padding-bottom: 6px;
+}
+.wrapper .English{
+  padding-top: 11px;
+  padding-bottom: 5px;
 }
 
-#nav a {
+.wrapper a {
   font-weight: bold;
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+.wrapper a.router-link-exact-active {
   color: #42b983;
 }
 
 /* mouse over link */
-#nav a:hover {
+.wrapper a:hover {
   color: deeppink;
 }
 
@@ -139,5 +154,14 @@ export default {
 #Ja{
     cursor: pointer;
 }
+#navTop{
+    cursor: pointer;
+}
+
+/* .wrapper .nav:after{
+    content:"";
+    display:block;
+    clear:both;
+} */
 
 </style>
