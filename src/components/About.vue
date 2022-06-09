@@ -56,7 +56,8 @@ export default {
 }
 
 #nameE{
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-family:'Avenir', Helvetica, Arial, sans-serif;
   text-align: center;
   color:#1d2833;
 }
