@@ -27,34 +27,35 @@
         <h3 class="reh3">Node.js Design Patterns second edition (2018)</h3>
           <li>Understanding of technical elements, Non-blocking IO, Asynchronous control flow, Streams, and others</li>
         <h3 class="reh3">The Net Ninja’s coding tutorials (2016 - 2022)</h3>
-          <li>	Completed 25 courses of Node.js, TypeScript, React, Next, Flutter, Git/GitHub, MongoDB, REST API, Graph QL, Webpack, WebSockets, OAuth, Vue.js, and Firebase/Firestore and others.</li>
+          <li>Completed 25 courses of Node.js, TypeScript, React, Next, Flutter, Git/GitHub, MongoDB, REST API, Graph QL, Webpack, WebSockets, OAuth, Vue.js, and Firebase/Firestore and others.</li>
         <h3 class="reh3">HackerRank (Feb 2019 - )</h3>
           <li>Continue trying programming challenge by Node.js (JavaScript)</li>
       </ul>
       <h2 class="reh2">WORK EXPERIENCE</h2><hr>
       <ul class="retext">
-        <h3 class="reh3">KDDI Corporation (May 2019 - May 2022, 3 years)</h3>
-          <li>Provided technical proposal to KDDI enterprise customers for accelerating customer’s DX activities</li>
+        <h3 class="reh3">KDDI Corporation <span>(May 2019 - May 2022, 3 years)</span></h3>
+          <li>Provided technical proposals to KDDI enterprise customers for accelerating customer’s DX activities</li>
           <li>Developed small applications to clarify new business idea</li>
-        <h3 class="reh3">Freelance Software Engineer (Sep 2016 - Apr 2019, 2.5 years)</h3>
+        <h3 class="reh3">Freelance Software Engineer <span>(Sep 2016 - Apr 2019, 2.5 years)</span></h3>
           <li>Developed web system for employment agency, EC site of livingware manufacturer</li>
           <li>Provided ICT solutions to small companies such as GSuite configuration, WordPress editing, updating Website</li>
-        <h3 class="reh3">Network Value Components Ltd (Mar 2016 – Aug 2016, 6 months)</h3>
+        <h3 class="reh3">Network Value Components Ltd <span>(Mar 2016 – Aug 2016, 6 months)</span></h3>
           <li>Provided sales and marketing activities for security products such as FortiGate, vARMOUR and ThreatSTOP</li>
-        <h3 class="reh3">Tamago-DB Corp (Apr 2015 – Oct 2015, 6 months)</h3>
+        <h3 class="reh3">Tamago-DB Corp <span>(Apr 2015 – Oct 2015, 6 months)</span></h3>
           <li>Developed marketing Website having linkage with MailChimp for selling cloud-based software service</li>
-        <h3 class="reh3">Mobilitysupport LLC (Jun 2011 – Mar 2015, 3.7 years)</h3>
+        <h3 class="reh3">Mobilitysupport LLC <span>(Jun 2011 – Mar 2015, 3.7 years)</span></h3>
           <li>Developed EC site (front end) for selling care equipment to care service providers (2011 ~ 2014)</li>
           <li>Provided IT consulting activities for small companies using cloud services including Google Apps, AWS.</li>
-        <h3 class="reh3">AIU insurance company (Aug 2009 - April 2011, 1.8 years)</h3>
+        <h3 class="reh3">AIU insurance company <span>(Aug 2009 - April 2011, 1.8 years)</span></h3>
           <li>Provided consulting activities for liability insurance, accident insurance to small - medium sized companies</li>
-        <h3 class="reh3">Verizon Enterprise (Mar 2000 - Oct 2008, total 8.5 years, including UUNET Japan, MCI Worldcom Japan, MCI Japan)</h3>
+        <h3 class="reh3">Verizon Enterprise <span>(Mar 2000 - Oct 2008, total 8.5 years, including UUNET / MCI Worldcom</span>)</h3>
           <li>Provided technical sales activities for Internet connectivity, Datacenter and Private IP service.</li>
-        <h3 class="reh3">ImageONE Co., Ltd (Oct 1998 - Feb 2000, 1.5 years, Trading company for satellite data receiving system)</h3>
+          <li>Main customers in charge are Yahoo Japan, Softbank, J-Stream, Mitsubishi Electric Corp</li>
+        <h3 class="reh3">ImageONE <span>(Oct 1998 - Feb 2000, 1.5 years, trading company for satellite data receiving system)</span></h3>
           <li>Provided sales and marketing activities for Data Receiving System of NOAA Satellite, ASD Spectroradiometers.</li>
-        <h3 class="reh3">Fuji Xerox Co., Ltd (Apr 1988 - Sep 1998, total 10.5 years)</h3>
-          <li>Provided marketing activities for Multifunction Laser Printers (4.5 years)</li>
-          <li>Provided business planning activities in HQ(3 years)</li> 
+        <h3 class="reh3">Fuji Xerox <span>(Apr 1988 - Sep 1998, total 10.5 years)</span></h3>
+          <li>Provided marketing activities for Multifunctional Laser Printers (4.5 years)</li>
+          <li>Provided business planning activities in HQ business planning division (3 years)</li> 
           <li>Provided marketing activities for AI Software (Smalltalk-80 and Interlisp-D) and UNIX Workstations (3 years)</li> 
       </ul>
       </div>
@@ -128,6 +129,9 @@ export default {
 }
 .retextjp li{
   margin-bottom:0.2em;
+}
+h3 span{
+  font-size: 0.92em;
 }
 
 /* Use a media query to add a break point at 800px: */
