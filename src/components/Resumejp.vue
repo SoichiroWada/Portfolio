@@ -15,11 +15,12 @@
         <h2 class="reh2">SKILLS</h2>
         <hr>
         <ul class="retextjp">
-          <li>フロントエンド： JavaScript (React / Redux, Vue.js, jQuery, ES6), CSS(Flexbox, Grid, SASS), HTML</li>
-          <li>バックエンド： Node.js, Express, MongoDB, Mongoose, Firebase/Firestore</li>
-          <li>Linux (or BSD)： 自宅の自作PC上でUbuntu 18.04 LTS server（Node.js, Express, MongoDB）が稼働しており、基本的なオペレーションおよびプログラミングを実施（2017年5月～）。</li>
-          <li>Internet (IP network)： ベライゾンにおける経験より広域ネットワークについての基礎知識をもっています。</li>
-          <li>その他：Firewall、G Suiteの設定／管理、ドメイン、メールについてのコンサルティングを行うことが可能。</li>
+          <li>フロントエンド： JavaScript / TypeScript, React, Vue.js, HTML, CSS</li>
+          <li>バックエンド： Node.js, Express, MongoDB, Mongoose, Firebase, AWS</li>
+          <li>Linux： Ubuntu 18.04 LTS Serverに対する基本的なオペレーションを毎日実施（2017年5月～）。</li>
+          <li>Internet (IP network)： TCP/IP, CIDR, DNS, Mailなどについて基本的なスキル</li>
+          <li>AWS： API Gateway, Lambda, DynamoDB, S3, Cognito, IoT Core, EC2, Wavelength等を利用し短期間でシステム構築可能</li>
+          <li>GCP： Firebase(Hosting, Database, Functions, Authentication), Google Maps</li>
         </ul>
         <h2 class="reh2">PERSONAL PROJECTS</h2>
         <hr>
@@ -33,7 +34,6 @@
             <li>ノンブロッキングIO、非同期プログラミングの制御フロー、ストリーム等、技術的要素の理解。</li>
           <h3 class="reh3">The Net Ninja’s coding tutorials (2017 ~ 2022)</h3>
             <li>Node.js, TypeScript, MongoDB, GraphQL, React/Redux & Firebase App, Webpack, WebSockets, OAuth, Vue.js など25コースを修了</li>
-            <li>やることリスト、忍者レシピ、チャット、忍者地図、ブログ検索などのアプリを作成。</li>
           <h3 class="reh3">HackerRank（2019 ~ ）</h3>
             <li>Node.js（JavaScript）によるアルゴリズム・チャレンジに挑戦。現在継続中。</li>
         </ul>
