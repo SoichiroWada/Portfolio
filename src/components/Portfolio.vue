@@ -10,6 +10,7 @@
 
     <div class="pfFlexbox">
       <div class="centerlinks">
+
         <div class="block">
           <h2 class="appTitle"><a href="https://materialize-51af2.web.app/" class="hlink">Materialize</a>
           <button class="source" v-on:click="redirect('materialize')">source code</button></h2>
@@ -32,6 +33,82 @@
           </ul>
           </div>
         </div>
+
+        <div class="block">
+          <h2 class="appTitle"><a href="https://reactconverter.firebaseapp.com/" class="hlink">React Converter</a>
+          <button class="source" v-on:click="redirect('react-converter')">source code</button></h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://reactconverter.firebaseapp.com/"
+                frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
+              </div>
+            </div>
+            <a href="https://reactconverter.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          </div>
+
+          <div class="mini">
+          <ul class="pftextjp">
+          <li>Coded in reference to Reactjs.org sample code.</li>
+          <li>Whichever cell you input the value, automatically convert and display the value of other 13 units in real time.</li>
+          <li>Tech: Javascript, Node.js, React</li>
+          <li>Hosting: Firebase</li>
+          </ul>
+          </div>
+        </div>
+
+
+
+        <div class="block">
+          <h2 class="appTitle"><a href="https://marioplan-894e0.firebaseapp.com/" class="hlink">Mario Plan - React</a>
+          <button class="source" v-on:click="redirect('marioplan')">source code</button></h2>
+          <div class="mini">
+          <div class="thumbnail-container">
+            <div class="thumbnail">
+              <iframe src="https://marioplan-894e0.firebaseapp.com/"
+              frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
+            </div>
+          </div>
+          <a href="https://marioplan-894e0.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          </div>
+
+          <div class="mini">
+          <ul class="pftext">
+            <li>Project management app, coded in Net Ninja's tutorial.</li>
+            <li>If new signup or new project registration is created, firebase functions on server automatically detect it and make a notice appear on Notification window.</li>
+            <li>Added functionality of Update and Delete with Firestore.</li>
+            <li>Tech: Javascript, Node.js, React, Redux, Redux-thunk, Firestore, Firebase Auth, Firebase Functions</li>
+            <li>Hosting: Firebase</li>
+          </ul>
+          </div>
+        </div>
+
+        
+        <div class="block">
+          <h2 class="appTitle"><a href="https://ranking-board.firebaseapp.com/" class="hlink">Ranking Board - React</a>
+          <button class="source" v-on:click="redirect('ranking')">source code</button></h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://ranking-board.firebaseapp.com/"
+                frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
+              </div>
+            </div>
+            <a href="https://ranking-board.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          </div>
+
+        <div class="mini">
+          <ul class="pftextjp">
+          <li>Ranking board app, coded in reference to Reactjs.org</li>
+          <li>Enabled clicking button to sort users for each item, toggling to reverse the order.</li>
+          <li>Styled by Materialize CSS grid, respoinsive.</li>
+          <li>Tech: Javascript, Node.js, React</li>
+          <li>Hosting: Firebase</li>
+          </ul>
+          </div>
+        </div>
+
+
 
         <div class="block">
           <h2 class="appTitle"><a href="https://css-sass-40f7f.web.app/" class="hlink">SASS</a>
@@ -57,78 +134,6 @@
         </div>
 
         <div class="block">
-          <h2 class="appTitle"><a href="https://marioplan-894e0.firebaseapp.com/" class="hlink">Mario Plan - React</a>
-          <button class="source" v-on:click="redirect('marioplan')">source code</button></h2>
-          <div class="mini">
-          <div class="thumbnail-container">
-            <div class="thumbnail">
-              <iframe src="https://marioplan-894e0.firebaseapp.com/"
-              frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
-            </div>
-          </div>
-          <a href="https://marioplan-894e0.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
-          </div>
-
-          <div class="mini">
-          <ul class="pftext">
-            <li>Project management app, coded in Net Ninja's tutorial.</li>
-            <li>If new signup or new project registration is created, firebase functions on server automatically detect it and make a notice appear on Notification window.</li>
-            <li>Added functionality of Update and Delete with Firestore.</li>
-            <li>Tech: Javascript, React, Redux, Redux-thunk, Firestore, Firebase Auth, Firebase Functions</li>
-            <li>Hosting: Firebase</li>
-          </ul>
-          </div>
-        </div>
-
-        
-        <div class="block">
-          <h2 class="appTitle"><a href="https://ranking-board.firebaseapp.com/" class="hlink">Ranking Board - React</a>
-          <button class="source" v-on:click="redirect('ranking')">source code</button></h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ranking-board.firebaseapp.com/"
-                frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
-              </div>
-            </div>
-            <a href="https://ranking-board.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
-          </div>
-
-        <div class="mini">
-          <ul class="pftextjp">
-          <li>Ranking board app, coded in reference to Reactjs.org</li>
-          <li>Enabled clicking button to sort users for each item, toggling to reverse the order.</li>
-          <li>Styled by Materialize CSS grid, respoinsive.</li>
-          <li>Tech: Javascript, React</li>
-          <li>Hosting: Firebase</li>
-          </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle"><a href="https://reactconverter.firebaseapp.com/" class="hlink">React Converter</a>
-          <button class="source" v-on:click="redirect('react-converter')">source code</button></h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://reactconverter.firebaseapp.com/"
-                frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
-              </div>
-            </div>
-            <a href="https://reactconverter.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
-          </div>
-
-          <div class="mini">
-          <ul class="pftextjp">
-          <li>Coded in reference to Reactjs.org sample code.</li>
-          <li>Whichever cell you input the value, automatically convert and display the value of other 13 units in real time.</li>
-          <li>Tech: Javascript, React</li>
-          <li>Hosting: Firebase</li>
-          </ul>
-          </div>
-        </div>
-
-        <div class="block">
           <h2 class="appTitle"><a href="https://react-test-a197a.firebaseapp.com/" class="hlink">Blogs - React</a>
           <button class="source" v-on:click="redirect('poketimes-redux')">source code</button></h2>
           <div class="mini">
@@ -145,7 +150,7 @@
           <ul class="pftext">
             <li>Coded in Net Ninja's tutorial with React and Redux.</li>
             <li>Basic model of React and Redux, a standard pattern of global state management by action creator and reducer.</li>
-            <li>Tech: Javascript, React, Redux</li>
+            <li>Tech: Javascript, Node.js, React, Redux</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -168,7 +173,7 @@
           <ul class="pftext">
             <li>Trial coding with React / Redux tutorial</li>
             <li>Using Materialize buttons and checkboxes, controlled list view by 3 kinds of filter.</li>
-            <li>Tech: Javascript, React, Redux, Materialize</li>
+            <li>Tech: Javascript, Node.js, React, Redux, Materialize</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -192,7 +197,7 @@
             <li>Coded in Net Ninja's tutorial and I modified action creator to test asynchronous operation by Redux-thunk middleware</li>
             <li>Input some words and push Enter button, program automatically access JSONPlaceholder (remote server) to pick one todo at random asynchronously</li>
             <li>Finally program concatenate the selected phrase and your input</li>
-            <li>Tech: Javascript, React, Redux, Redux-thunk</li>
+            <li>Tech: Javascript, Node.js, React, Redux, Redux-thunk</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -216,7 +221,7 @@
             <li>Coded with Net Ninja's tutorial (youtube) by Vue CLI and Firebase</li>
             <li>Group chat function is added, profile-page, login, logout are revised</li>
             <li>You can test this site by login with id:test@mail.com, password:test123 and your geo-location acceptance</li>
-            <li>Tech: Javascript, Vue CLI, Vue Router, Firebase/Firestore (database), Firebase Auth</li>
+            <li>Tech: Javascript, Node.js, Vue CLI, Vue Router, Firebase/Firestore (database), Firebase Auth</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -239,7 +244,7 @@
           <ul class="pftext">
             <li>Once coded with Net Ninja's tutorial (Javascript, jQuery, Mongoose, MongoDB) and converted it with Vue CLI and Firebase</li>
             <li>You can recycle the data in "completed" or "deleted" list</li>
-            <li>Tech: Javascript, Vue CLI, Vue Router, Firebase/Firestore (database)</li>
+            <li>Tech: Javascript, Node.js, Vue CLI, Vue Router, Firebase/Firestore (database)</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -263,7 +268,7 @@
             <li>Once coded calculator in freeCodeCamp's trial (Javascript, jQuery, Bootstrap) and converted it into Vue CLI</li>
             <li>Enabled key input with keyboard, backspace key with auto recalculation</li>
             <li>Functioned auto brackets generator</li>
-            <li>Tech: Javascript, Vue CLI, Vue Router</li>
+            <li>Tech: Javascript, Node.js, Vue CLI, Vue Router</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -284,7 +289,7 @@
           <div class="mini">
           <ul class="pftext">
           <li>Trial app in Net Ninja (youtube) coding tutorial</li>
-          <li>Tech: Javascript, Vue CLI, Firebase/Firestore(database)</li>
+          <li>Tech: Javascript, Node.js, Vue CLI, Firebase/Firestore(database)</li>
           <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -305,7 +310,7 @@
           <div class="mini">
           <ul class="pftext">
             <li>Once made Simon Game in freeCodeCamp's trial (Javascript, jQuery, Bootstrap) and converted it into Vue CLI</li>
-            <li>Tech: Javascript, Vue CLI</li>
+            <li>Tech: Javascript, Node.js, Vue CLI</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>

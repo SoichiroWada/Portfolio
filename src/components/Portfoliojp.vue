@@ -9,7 +9,6 @@
     <span id="phone">Responsive Web ( - 600px)</span></h3>
 
     <div class="pfFlexbox">
-
       <div class="centerlinks">
 
         <div class="block">
@@ -28,7 +27,7 @@
           <div class="mini">
           <ul class="pftextjp">
           <li>ネット忍者チュートリアル（Materialize）に沿ってコーディング。</li>
-          <li>レスポンシブデザイン（表示しているウィンドウを縮小／拡大してみてください）</li>
+          <li>レスポンシブデザイン</li>
           <li>使用技術: HTML, CSS, Javascript, Materialize</li>
           <li>ホスティング: Firebase</li>
           </ul>
@@ -36,23 +35,23 @@
         </div>
 
         <div class="block">
-          <h2 class="appTitle"><a href="https://css-sass-40f7f.web.app/" class="hlink">SASS</a>
-          <button class="source" v-on:click="redirect('sass')">source code</button></h2>
+          <h2 class="appTitle"><a href="https://reactconverter.firebaseapp.com/" class="hlink">React Converter</a>
+          <button class="source" v-on:click="redirect('react-converter')">source code</button></h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
-                <iframe src="https://css-sass-40f7f.web.app/"
+                <iframe src="https://reactconverter.firebaseapp.com/"
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://css-sass-40f7f.web.app/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://reactconverter.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
           <ul class="pftextjp">
-          <li>ネット忍者チュートリアル（SASS）に沿ってコーディング。</li>
-          <li>SASSにより、ヘッダー部分のメニューの配置、サービスの3つのメニュー（レコーディング、証明書、スカイプ）など、CSSにおいて全体の幅を指定し、あとは割り算で指定。</li>
-          <li>使用技術: HTML, CSS, Javascript, SASS</li>
+          <li>Reactjs.orgのサンプルコードを参考にしてコーディング、単位同時変換アプリ。</li>
+          <li>Controlled input及びData bindingにより、入力可能な箇所のどこに入力しても、瞬時に他のすべての単位を再計算して同時に表示。</li>
+          <li>使用技術: Javascript, Node.js, React</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -99,30 +98,30 @@
           <li>Reactjs.orgのサンプルコードを参考にしてコーディング、ランキング表示アプリ。</li>
           <li>データを読み込んだ後、ボタン操作によりランキングをソート。トグル機能により、順配列、逆配列の切り替えが可能。</li>
           <li>MaterializeのCSSグリッドによるスタイルを使用、レスポンシブデザイン。</li>
-          <li>使用技術: Javascript, React, Materialize</li>
+          <li>使用技術: Javascript, Node.js, React, Materialize</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
         </div>
 
         <div class="block">
-          <h2 class="appTitle"><a href="https://reactconverter.firebaseapp.com/" class="hlink">React Converter</a>
-          <button class="source" v-on:click="redirect('react-converter')">source code</button></h2>
+          <h2 class="appTitle"><a href="https://css-sass-40f7f.web.app/" class="hlink">SASS</a>
+          <button class="source" v-on:click="redirect('sass')">source code</button></h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
-                <iframe src="https://reactconverter.firebaseapp.com/"
+                <iframe src="https://css-sass-40f7f.web.app/"
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://reactconverter.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://css-sass-40f7f.web.app/"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
           <ul class="pftextjp">
-          <li>Reactjs.orgのサンプルコードを参考にしてコーディング、単位同時変換アプリ。</li>
-          <li>入力箇所が14か所あり、どこに入力しても、瞬時に再計算して他の全ての単位で同時に表示。</li>
-          <li>使用技術: Javascript, React</li>
+          <li>ネット忍者チュートリアル（SASS）に沿ってコーディング。</li>
+          <li>SASSにより、ヘッダー部分のメニューの配置、サービスの3つのメニュー（レコーディング、証明書、スカイプ）など、CSSにおいて全体の幅を指定し、あとは割り算で指定。</li>
+          <li>使用技術: HTML, CSS, Javascript, SASS</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -145,7 +144,7 @@
           <ul class="pftextjp">
           <li>ネット忍者チュートリアルに沿いコーディング。React / Reduxを使用したaction creatorとreducerによるステート管理。</li>
           <li>Higher Order ComponentによるAboutページの自動カラー変換。</li>
-          <li>使用技術: Javascript, React, Redux</li>
+          <li>使用技術: Javascript, Node.js, React, Redux</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -168,7 +167,7 @@
           <ul class="pftext">
             <li>React / Reduxチュートリアルにおいて説明用に出てくるコードを使い、Materializeを利用して作成。</li>
             <li>Materializeのボタン、チェックボックス等を使用、3種類のフィルターによってリスト表示を制御。</li>
-            <li>Tech: Javascript, React, Redux, Materialize</li>
+            <li>Tech: Javascript, Node.js, React, Redux, Materialize</li>
             <li>Hosting: Firebase</li>
           </ul>
           </div>
@@ -191,7 +190,7 @@
           <ul class="pftextjp">
           <li>ネット忍者チュートリアルに沿ってコーディング。action creatorを修正してRedux-thunkを使いmiddlewareによるasync処理を導入。</li>
           <li>テキストを入力すると、自動的にasyncでJSONPlaceholder（リモートサーバ）からtodoをランダムで読みだし、入力したテキストと結合して出力</li>
-          <li>使用技術: Javascript, React, Redux, Redux-thunk</li>
+          <li>使用技術: Javascript, Node.js, React, Redux, Redux-thunk</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -214,7 +213,7 @@
           <ul class="pftextjp">
           <li>ネット忍者(youtube)チュートリアルに沿ってコーディング、チャット、サインアップ、ログイン、ログアウト、プロファイルページなどを改良</li>
           <li>テスト環境：id:test@mail.com, password:test123でログインして、ブラウザ上で位置情報の利用を許可すると、自分の位置が地図上に表示されます。 </li>
-          <li>使用技術: Javascript, Vue CLI, Vue Router, Firebase/Firestore (database), Firebase Auth</li>
+          <li>使用技術: Javascript, Node.js, Vue CLI, Vue Router, Firebase/Firestore (database), Firebase Auth</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -237,7 +236,7 @@
           <ul class="pftextjp">
           <li>ネット忍者（youtube上のプログラミング教室）の内容に沿ってコーディング(Javascript, jQuery, Mongoose, MongoDB)したものをベースとして改良しVue CLI & Firebaseにより再作成。</li>
           <li>実施済み、および削除データを再利用する機能を追加、ソート機能を追加</li>
-          <li>使用技術: Javascript, Vue CLI, Vue Router, Firebase/Firestore (database)</li>
+          <li>使用技術: Javascript, Node.js, Vue CLI, Vue Router, Firebase/Firestore (database)</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -261,7 +260,7 @@
           <li>freeCodeCampの課題としてCodepen上で作成(Javascript, jQuery, Bootstrap) したものをベースとして、機能を強化してVue CLIに移植</li>
           <li>キーボードからの入力、及びバックスペース利用可能（自動再計算）</li>
           <li>自動的に括弧を付与、計算式をコピーしてgoogleで検算可能</li>
-          <li>使用技術: Javascript, Vue CLI, Vue Router</li>
+          <li>使用技術: Javascript, Node.js, Vue CLI, Vue Router</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -282,7 +281,7 @@
           <div class="mini">
           <ul class="pftextjp">
           <li>ネット忍者のコース課題として作成</li>
-          <li>使用技術: Javascript, Vue CLI, Firebase/Firestore(database)</li>
+          <li>使用技術: Javascript, Node.js, Vue CLI, Firebase/Firestore(database)</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
@@ -303,7 +302,7 @@
           <div class="mini">
           <ul class="pftextjp">
           <li>freeCodeCampのトライアルとして、Codepen上でJavascript, jQuery, Bootstrapにより作成したものを改良してVue CLIで作成</li>
-          <li>使用技術: Javascript, Vue CLI</li>
+          <li>使用技術: Javascript, Node.js, Vue CLI</li>
           <li>ホスティング: Firebase</li>
           </ul>
           </div>
