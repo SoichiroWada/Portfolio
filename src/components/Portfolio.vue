@@ -50,14 +50,12 @@
           <div class="mini">
           <ul class="pftextjp">
           <li>Coded in reference to Reactjs.org sample code.</li>
-          <li>Whichever cell you input the value, automatically convert and display the value of other 13 units in real time.</li>
+          <li>Because of controlled input and data binding, when you input the value in any cell, this app automatically recaluculate and show the values in real time.</li>
           <li>Tech: Javascript, Node.js, React</li>
           <li>Hosting: Firebase</li>
           </ul>
           </div>
         </div>
-
-
 
         <div class="block">
           <h2 class="appTitle"><a href="https://marioplan-894e0.firebaseapp.com/" class="hlink">Mario Plan - React</a>
