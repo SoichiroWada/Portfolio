@@ -50,7 +50,7 @@
           <div class="mini">
           <ul class="pftextjp">
           <li>Coded in reference to Reactjs.org sample code.</li>
-          <li>You input a number to whichever cell, by controlled input and data binding, the app recalculate and update all the value in real time.</li>
+          <li>Whichever cell you may input a number, by controlled input and data binding in React, the app recalculate and update all the value in real time.</li>
           <li>Tech: Javascript, Node.js, React</li>
           <li>Hosting: Firebase</li>
           </ul>
