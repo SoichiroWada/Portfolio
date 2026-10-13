@@ -21,7 +21,7 @@
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://materialize-51af2.web.app/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://materialize-51af2.web.app/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -44,7 +44,7 @@
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://reactconverter.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://reactconverter.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -67,7 +67,7 @@
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://marioplan-894e0.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://marioplan-894e0.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -90,7 +90,7 @@
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://ranking-board.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://ranking-board.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -114,7 +114,7 @@
                 frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
               </div>
             </div>
-            <a href="https://css-sass-40f7f.web.app/"><div class="thumbnail-container overlay"></div></a>
+            <a href="https://css-sass-40f7f.web.app/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -137,7 +137,7 @@
               frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://react-test-a197a.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://react-test-a197a.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -160,7 +160,7 @@
               frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://reactredux-todo.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://reactredux-todo.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -183,7 +183,7 @@
               frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://addtodo-redux.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://addtodo-redux.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -206,7 +206,7 @@
               frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://geo-ninja-3efcf.firebaseapp.com/#/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://geo-ninja-3efcf.firebaseapp.com/#/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -229,7 +229,7 @@
               frameborder="0" onload="window.scrollTo(0,0); this.style.opacity = 1" scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://todo-list-21740.firebaseapp.com/#/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://todo-list-21740.firebaseapp.com/#/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -252,7 +252,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"></iframe>
             </div>
           </div>
-          <a href="https://calculator-bf6c7.firebaseapp.com/#/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -275,7 +275,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"  scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://ninja-smoothies-2018.firebaseapp.com/#/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://ninja-smoothies-2018.firebaseapp.com/#/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -296,7 +296,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"  scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://simongame-c122a.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://simongame-c122a.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -317,7 +317,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"  scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://codepen.io/SoichiroW/full/aLRmoQ/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -340,7 +340,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"  scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://codepen.io/SoichiroW/full/yPerQe/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://codepen.io/SoichiroW/full/yPerQe/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -362,7 +362,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"  scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://keycode-finder.firebaseapp.com/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
@@ -384,7 +384,7 @@
               onload="window.scrollTo(0,0); this.style.opacity = 1"  scrolling="no"></iframe>
             </div>
           </div>
-          <a href="https://codepen.io/SoichiroW/full/xPOmvR/"><div class="thumbnail-container overlay"></div></a>
+          <a href="https://codepen.io/SoichiroW/full/xPOmvR/" target="_blank" rel="noopener noreferrer"><div class="thumbnail-container overlay"></div></a>
           </div>
 
           <div class="mini">
