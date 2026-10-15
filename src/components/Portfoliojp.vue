@@ -204,40 +204,6 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://materialize-51af2.web.app/" target="_blank" class="hlink">Materialize</a>
-            <button class="source" v-on:click="redirect('materialize')">source code</button>
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://materialize-51af2.web.app/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://materialize-51af2.web.app/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftextjp">
-              <li>ネット忍者チュートリアル（Materialize）に沿ってコーディング。</li>
-              <li>レスポンシブデザイン</li>
-              <li>使用技術: HTML, CSS, Javascript, Materialize</li>
-              <li>クラウド: Firebase</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
             <a href="https://marioplan-894e0.firebaseapp.com/" target="_blank" class="hlink">Mario Plan - React</a>
             <button class="source" v-on:click="redirect('marioplan')">source code</button>
           </h2>
@@ -338,10 +304,10 @@
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>Coded in Net Ninja tutorial with Materialize.</li>
-              <li>Responsive design.</li>
-              <li>Tech: HTML, CSS, Javascript, Materialize</li>
-              <li>Hosting: Domestic service provider</li>
+              <li>ネット忍者チュートリアル（Materialize）に沿ってコーディング。</li>
+              <li>レスポンシブデザイン</li>
+              <li>使用技術: HTML, CSS, Javascript, Materialize</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>

@@ -6,63 +6,75 @@
         <h2 class="reh2">PROFESSIONAL SUMMARY</h2>
         <hr>
         <ul id="resumeText" class="retextjp">
-          <li>Web／フロントエンド開発エンジニア。</li>
-          <li>ソフトウエア開発経験：10年 (HTML, CSS, JavaScript), 6年(React, Next.js, Vue.js)。</li>
-          <li>コア技術はJavaScript/TypeScript, Node.js, React, Vue.js, MongoDB, Firebase, AWS</li>
-          <li>現在、JavaScript/TypeScript, React/Next.js/Vue.jsエンジニアを補強したい企業におけるポジションを探しています。</li>
-          <li>短期の有期契約、または年契約が可能です。（3カ月、1年など。双方が合意すれば延長可能）</li>
+          <li>プロジェクトマネージャー（3年）</li>
+          <li>プリセールスエンジニア（3.5年）</li>
+          <li>フロントエンド／フルスタック開発エンジニア（10年以上）</li>
+          <li>ソフトウエア開発経験：HTML, CSS, JavaScriptは10年, React/Next.jsは6年</li>
+          <li>コア技術はJavaScript (Node.js), TypeScript, Next.js, React, Firebase, AWS</li>
         </ul>
         <h2 class="reh2">SKILLS</h2>
         <hr>
         <ul class="retextjp">
-          <li>フロントエンド： JavaScript / TypeScript, React, Vue.js, HTML, CSS</li>
-          <li>バックエンド： Node.js, Express, MongoDB, Mongoose, Firebase, AWS</li>
-          <li>Linux： Ubuntu 18.04 LTS Serverに対する基本的なオペレーションを毎日実施（2017年5月～）。</li>
-          <li>Internet (IP network)： TCP/IP, CIDR, DNS, Mailなどについて基本的なスキル</li>
-          <li>AWS： API Gateway, Lambda, DynamoDB, S3, Cognito, IoT Core, EC2, Wavelength等を利用し短期間でシステム構築可能</li>
-          <li>GCP： Firebase(Hosting, Database, Functions, Authentication), Google Maps</li>
+          <li>Web開発スキルをベースとしたフルスタックエンジニア</li>
+          <li>フロントエンド：JavaScript (React, Vue.js, ES6), TypeScript, CSS, HTML</li>
+          <li>バックエンド：Next.js, Node.js, Express, MongoDB, Firebase, AWS</li>
+          <li>AWS：API Gateway, Lambda, DynamoDB, Cognito, S3, IoT Core, WAF</li>
+          <li>Linux：Ubuntu, CentOS, RHEL その他Linuxの基本オペレーション</li>
+          <li>Repository：Git, GitHubによる管理を実施</li>
+          <li>Claude Code, CODEX(OpenAI)により環境設定、コード生成、自動テスト、システム設計書等のドキュメント作成が可能</li>
+        </ul>
+        <h2 class="reh2">ACHIEVEMENTS</h2>
+        <hr>
+        <ul class="retextjp">
+          <li>KDDIにおいて製造業顧客むけのIoTデータ・プラットフォームの開発、運用、その他技術支援を提供（データ基盤はKDDI Cloud Platform + AWS）</li>
+          <li>KDDIにて、警備会社、物流会社、量販店へPoCを作成及び提供（モバイルWebアプリ、Soracomボタン、AWSプラットフォームを利用）</li>
+          <li>Tamago-DBのWebマーケティング用Webサイトを構築、新規顧客を獲得</li>
+          <li>UUNET ~ Verizon Businessにおいて複数の大規模商談をクローズ（1 ~ 12 million USD）。アジアパシフィックにおいて社長賞を3回受賞</li>
+          <li>富士ゼロックスにおけるレーザープリンターOEM年間15億円の売上達成</li>
         </ul>
         <h2 class="reh2">PERSONAL PROJECTS</h2>
         <hr>
         <ul class="retextjp">
-          <h3 class="reh3">freeCodeCamp’s Front End Projects (March ~ Nov 2017)</h3>
-            <li>2017年11月にfreeCodeCampのフロントエンドデベロッパープログラムを終了。</li>
-            <li>JavaScriptにより、ゲーム、チャットアプリ、電卓などを作成</li>
-          <h3 class="reh3">Node School (2018)</h3>
-            <li>Learnyounode, How to npmはチュートリアルを終了</li>
-          <h3 class="reh3">Node.js Design Patterns second edition (2018)</h3>
-            <li>ノンブロッキングIO、非同期プログラミングの制御フロー、ストリーム等、技術的要素の理解。</li>
-          <h3 class="reh3">The Net Ninja’s coding tutorials (2017 ~ 2022)</h3>
-            <li>Node.js, TypeScript, MongoDB, GraphQL, React/Redux & Firebase App, Webpack, WebSockets, OAuth, Vue.js など25コースを修了</li>
-          <h3 class="reh3">HackerRank（2019 ~ ）</h3>
-            <li>Node.js（JavaScript）によるアルゴリズム・チャレンジに挑戦。現在継続中。</li>
+          <li>Udemy, freeCodeCamp、Node School、Net Ninjaの各コースを利用して、JavaScript, TypeScript, Next.js, Node.js等のミニプロジェクトを実施</li>
         </ul>
         <h2 class="reh2">WORK EXPERIENCE</h2>
         <hr>
         <ul class="retextjp">
-          <h3 class="reh3">KDDI株式会社 <span>(May 2019 – May 2022, 3年)</span></h3>
-            <li>KDDI法人顧客のDXを推進するための提案活動、プロジェクト化サポートおよび推進</li>               
-            <li>DXのタネとなるアイディアを具体化するためのミニアプリを短期間で作成し、「見える化」を実現</li>  
-          <h3 class="reh3">フリーランスITエンジニアとして活動 <span>(Sep 2016 - Apr 2019, 2.5年)</span></h3>
-            <li>ITコンサルタント / Web開発エンジニアとしてホームページの開発、リニューアル、G Suiteの管理業務代行、社内向け業務アプリの開発等を実施。</li>
+          <h3 class="reh3">KDDI株式会社 <span>(May 2019 – Mar 2026, 7年)</span></h3>
+            <li>製造業顧客むけのIoTデータ・プラットフォーム（クラウド）の開発支援</li>
+            <li>顧客ニーズに基づいたPoCを短納期で開発、実際の業務における利便性を検証</li>
+            <li>モバイルapp / IoT / クラウドで顧客のワークフローをサポート</li>
+          <h3 class="reh3">フリーランス・エンジニア <span>(Sep 2016 – May 2019, 2.7年)</span></h3>
+            <li>零細～中企業へWebマーケティング／Web開発支援を提供</li>
+            <li>メールサービスのGSuiteへの切り替え、ワードプレスを利用したWebサイト構築などを提供</li>
           <h3 class="reh3">株式会社ネットワークバリューコンポネンツ <span>(Mar 2016 – Aug 2016, 6 months)</span></h3>
-            <li>セキュリティプロダクトについての営業およびマーケティング活動（FortiGate, vARMOUR and ThreatSTOP）</li>
-          <h3 class="reh3">Tamago-DB株式会社 <span>(Apr 2015 – Oct 2015, 6 months)</span></h3>
-            <li>人材紹介会社向けソフトウェアサービス販売のためのマーケティングWebサイト構築およびプロモーション活動を実施</li>
+            <li>FortiGate, vArmour、ThreatSTOPなどのセキュリティプロダクトの営業活動を実施</li>
+            <li>新商品REDSEALのパイロットユーザー獲得を目的としたマーケティング活動を実施</li>
+          <h3 class="reh3">株式会社Tamago-DB <span>(Apr 2015 – Oct 2015, 6 months)</span></h3>
+            <li>メールマーケティングサイトと連携動作するマーケティング用Web構築による人材紹介事業者向けクラウドサービスのセールスリード創造</li>
           <h3 class="reh3">モビリティサポート合同会社 <span>(Jun 2011 – Mar 2015, 3.7年)</span></h3>
-            <li>介護事業者向け経理ソフトを販売している事業者の介護用品ECサイトの設計・構築および運用(2011 ~ 2014).</li>
-            <li>小規模事業者向けITコンサルティング・サービスを提供。主にG Suite, AWSなどのクラウドサービスの提案及び導入。</li>
-          <h3 class="reh3">AIU保険会社 <span>(Aug 2009 - Apr 2011, 1.8年)</span></h3>
-            <li>リスクコンサルタントとして、小～中規模事業者への法人営業活動を実施</li>
-          <h3 class="reh3">ベライゾンエンタープライズ <span>(Mar 2000 - Oct 2008, 8.5年, UUNET, MCI Worldcomを含む)</span></h3>
-            <li>テクニカルセールスとして、IP接続サービス、データセンター、プライベートIPサービスの提案活動を実施</li>
-            <li>主な担当顧客は、ヤフー、ソフトバンク、Jストリーム、三菱電機</li>            
-          <h3 class="reh3">株式会社イメージ ワン <span>(Oct 1998 - Feb 2000, 1.5年, Trading company for satellite data receiving system)</span></h3>
-            <li>気象観測衛星のデータ受信設備（Data Receiving System of NOAA Satellite)、気象観測データの検証用機材（ASD Spectroradiometers）の提案及び販売</li>
-          <h3 class="reh3">富士ゼロックス株式会社 <span>(Apr 1988 - Sep 1998, total 10.5年)</span></h3>
-            <li>マルチファンクション・レーザープリンターのマーケティング活動 (4.5年)</li>
-            <li>本社企画部（事業計画チーム）において富士ゼロックス中期計画を担当 (3年)</li> 
-            <li>AIソフトウェア(Smalltalk-80 and Interlisp-D)及びUNIX Workstationのマーケティング活動を実施(3年)</li> 
+            <li>介護事業者向け経理システムを販売する事業者の介護用品ECサイトを構築・運用</li>
+            <li>メッセージング、ITセキュリティについてのコンサルティング、GSuite, Office 365, AWSを利用したオフィス環境のIT化促進</li>
+          <h3 class="reh3">AIU保険会社 <span>(Aug 2009 – Apr 2011, 1.8年)</span></h3>
+            <li>小規模事業者向けに賠償責任保険、火災保険など40社以上に販売</li>
+          <h3 class="reh3">Verizon Enterprise <span>(Mar 2000 – Oct 2008, 8.5年, UUNET Japan, MCI Worldcom Japanを含む)</span></h3>
+            <li>Verizon Enterprise法人営業部（2006年10月～2008年10月）：三菱電機グループの国際ネットワーク移行を提案／受注、インターネットIPVPN網よりPrivate IP Serviceへの移行プロジェクトを推進</li>
+            <li>MCI Worldcom Japanホールセール営業部（2003年1月～2006年9月）：ヤフー、マイクロソフト、ソフトバンクBB等のインターネットサービス事業者向けの提案活動を実施。2004年1月、ヤフーより約20億円の契約を受注（3年契約）</li>
+            <li>UUNET Japan e-sp営業部（2000年3月～2002年12月）：ヤフー、J-Stream、スクエア、コナミ等のインターネットサービス事業者向けの提案活動を実施。2001年1月、ヤフーより約6億円の契約を受注（2年契約）</li>
+            <li>メインプロダクト：Private IP Service（MPLSベース国際IPVPNサービス）、IPトランジット、IPコロケーション、マネージドホスティング、セキュリティーソリューション</li>
+          <h3 class="reh3">イメージワン株式会社 <span>(Oct 1998 – Feb 2000, 1.5年)</span></h3>
+            <li>地球環境事業部GEOビジネスグループ・マネージャーとして、米国気象衛星NOAAデータ受信システム（米国SMARTech社製）、リモートセンシング・ソフトウエア（米国RSI社製）、スペクトロラジオメーター（米国ASD社製）等のメーカーとの交渉、調整、および販売を実施</li>
+          <h3 class="reh3">富士ゼロックス株式会社 <span>(Apr 1988 – Sep 1998, 10.5年)</span></h3>
+            <li>SOP商品事業部発推進部 主任（1997年10月～1998年9月）：Small Office向けドキュメント管理システムの開発推進（Windows NTベース）</li>
+            <li>SOP事業部SOP販売部 主任（1994年10月～1997年9月）：ダイワボウ情報システム、内田洋行、丸紅インフォテック、ソフマップ、ヨドバシカメラ等の販売チャネル開拓のためのパートナーセールス活動を実施</li>
+            <li>VIP事業部（レーザープリンターOEM事業部）販売部（1993年10月～1994年9月）：リコー、富士通に対するレーザープリンターOEM営業、売上実績15億円</li>
+            <li>M&amp;BP部（本社事業企画部）事業戦略グループ（1991年10月～1993年9月）：中期総合事業計画案、コンピュータ・ビジネスエリア事業計画案の作成に参加</li>
+            <li>AI事業部AI販売部（1988年10月～1991年10月）：AIソフトウエア（Interlisp-D, Smalltalk-80）、AIコンピュータ（Fuji Xerox 1121 Workstation）、UNIXワークステーション（Sun SPARCstation）の販売</li>
+        </ul>
+        <h2 class="reh2">EDUCATION</h2>
+        <hr>
+        <ul class="retextjp">
+          <li>1988年3月 慶應義塾大学経済学部卒業</li>
         </ul>
       </div>
     </div>
