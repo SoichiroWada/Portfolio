@@ -5,7 +5,7 @@
       <div class="aboutCenter">
         <ul class="aboutInfo">
           <li>mail: soichirowada@ipmulticast.net</li>
-          <li>address: Shibamata, Katsushika-ku, Tokyo</li>
+          <li>address: Katsushika-ku, Tokyo</li>
           <li>GitHub: https://github.com/SoichiroWada</li>
           <li>education: B.A. in Economics 1988, Keio University</li>
         </ul>

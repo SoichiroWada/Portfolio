@@ -7,9 +7,9 @@
         <hr>
         <ul id="resumeText" class="retextjp">
           <li>Web／フロントエンド開発エンジニア。</li>
-          <li>ソフトウエア開発経験：10年 (HTML, CSS, JavaScript), 6年(React, Vue.js)。</li>
+          <li>ソフトウエア開発経験：10年 (HTML, CSS, JavaScript), 6年(React, Next.js, Vue.js)。</li>
           <li>コア技術はJavaScript/TypeScript, Node.js, React, Vue.js, MongoDB, Firebase, AWS</li>
-          <li>現在、JavaScript/TypeScript, Reactエンジニアを補強したい企業におけるポジションを探しています。</li>
+          <li>現在、JavaScript/TypeScript, React/Next.js/Vue.jsエンジニアを補強したい企業におけるポジションを探しています。</li>
           <li>短期の有期契約、または年契約が可能です。（3カ月、1年など。双方が合意すれば延長可能）</li>
         </ul>
         <h2 class="reh2">SKILLS</h2>
