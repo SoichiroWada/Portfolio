@@ -133,7 +133,7 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">電卓 - Vue CLI</a>
+            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">電卓 - Vue.js</a>
             <button class="source" v-on:click="redirect('Calculator')">source code</button>
           </h2>
           <div class="mini">
@@ -158,11 +158,45 @@
             <ul class="pftextjp">
               <li>
                 freeCodeCampの課題としてCodepen上で作成(Javascript, jQuery, Bootstrap)
-                したものをベースとして、機能を強化してVue CLIに移植
+                したものをベースとして、機能を強化してVue.jsに移植
               </li>
               <li>キーボードからの入力、及びバックスペース利用可能（自動再計算）</li>
               <li>自動的に括弧を付与、計算式をコピーしてgoogleで検算可能</li>
               <li>使用技術: Javascript, Node.js, Vue.js, Vue Router</li>
+              <li>クラウド: Firebase</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2 class="appTitle">
+            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">keycode表示アプリ</a>
+          </h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe
+                  src="https://keycode-finder.firebaseapp.com/"
+                  frameborder="0"
+                  onload="
+                    window.scrollTo(0, 0);
+                    this.style.opacity = 1;
+                  "
+                  scrolling="no"
+                ></iframe>
+              </div>
+            </div>
+            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
+              ><div class="thumbnail-container overlay"></div
+            ></a>
+          </div>
+
+          <div class="mini">
+            <ul class="pftextjp">
+              <li>開発用のツールとして作成</li>
+              <li>3種類のevent.key情報を表示します。（keydown, keypress, keyup）</li>
+              <li>複合キー（shiftキー + X）も表示可能</li>
+              <li>使用技術: Javascript, Vue.js</li>
               <li>クラウド: Firebase</li>
             </ul>
           </div>
@@ -388,7 +422,7 @@
         <div class="block">
           <h2 class="appTitle">
             <a href="https://todo-list-21740.firebaseapp.com/#/" target="_blank" class="hlink"
-              >やることリスト - Vue CLI</a
+              >やることリスト - Vue.js</a
             >
             <button class="source" v-on:click="redirect('todoVueCLI')">source code</button>
           </h2>
@@ -415,10 +449,10 @@
             <ul class="pftextjp">
               <li>
                 ネット忍者（youtube上のプログラミング教室）の内容に沿ってコーディング(Javascript, jQuery, Mongoose,
-                MongoDB)したものをベースとして改良しVue CLI & Firebaseにより再作成。
+                MongoDB)したものをベースとして改良しVue.js & Firebaseにより再作成。
               </li>
               <li>実施済み、および削除データを再利用する機能を追加、ソート機能を追加</li>
-              <li>使用技術: Javascript, Node.js, Vue CLI, Vue Router, Firebase/Firestore (database)</li>
+              <li>使用技術: Javascript, Node.js, Vue.js, Vue Router, Firebase/Firestore (database)</li>
               <li>クラウド: Firebase</li>
             </ul>
           </div>
@@ -427,7 +461,7 @@
         <div class="block">
           <h2 class="appTitle">
             <a href="https://ninja-smoothies-2018.firebaseapp.com/#/" target="_blank" class="hlink"
-              >忍者スムージーレシピ - Vue CLI</a
+              >忍者スムージーレシピ - Vue.js</a
             >
           </h2>
           <div class="mini">
@@ -452,7 +486,7 @@
           <div class="mini">
             <ul class="pftextjp">
               <li>ネット忍者のコース課題として作成</li>
-              <li>使用技術: Javascript, Node.js, Vue CLI, Firebase/Firestore(database)</li>
+              <li>使用技術: Javascript, Node.js, Vue.js, Firebase/Firestore(database)</li>
               <li>クラウド: Firebase</li>
             </ul>
           </div>
@@ -460,9 +494,7 @@
 
         <div class="block" id="simon">
           <h2 class="appTitle">
-            <a href="https://simongame-c122a.firebaseapp.com/" target="_blank" class="hlink"
-              >サイモンゲーム - Vue CLI</a
-            >
+            <a href="https://simongame-c122a.firebaseapp.com/" target="_blank" class="hlink">サイモンゲーム - Vue.js</a>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -486,10 +518,10 @@
           <div class="mini">
             <ul class="pftextjp">
               <li>
-                freeCodeCampのトライアルとして、Codepen上でJavascript, jQuery, Bootstrapにより作成したものを改良してVue
-                CLIで作成
+                freeCodeCampのトライアルとして、Codepen上でJavascript, jQuery,
+                Bootstrapにより作成したものを改良してVue.jsで作成
               </li>
-              <li>使用技術: Javascript, Node.js, Vue CLI</li>
+              <li>使用技術: Javascript, Node.js, Vue.js</li>
               <li>クラウド: Firebase</li>
             </ul>
           </div>
@@ -525,74 +557,6 @@
               <li>背景が天気の情報によって変化</li>
               <li>使用技術: Javascript, Bootstrap</li>
               <li>クラウド: Codepen</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/yPerQe/" target="_blank" class="hlink"
-              >ポモドーロ時計（逆算タイマー）</a
-            >
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://codepen.io/SoichiroW/full/yPerQe/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://codepen.io/SoichiroW/full/yPerQe/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftextjp">
-              <li>freeCodeCampのコーディングトライアルにおいて作成</li>
-              <li>ロケット発射音を使用したカウントダウンタイマー</li>
-              <li>使用技術: Javascript, Bootstrap</li>
-              <li>クラウド: Codepen</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">keycodeを表示するアプリ</a>
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://keycode-finder.firebaseapp.com/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftextjp">
-              <li>開発用のツールとして作成</li>
-              <li>2種類のevent.key情報を表示します。（そのうち一つは、コンソールログとして表示）</li>
-              <li>使用技術: Javascript, Vue CLI</li>
-              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
