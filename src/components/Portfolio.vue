@@ -38,7 +38,8 @@
 
           <div class="mini">
             <ul class="pftext">
-              <li>Photos are sorted chronologically and laid out along the walls of a 3D corridor space</li>
+              <li>Photos in chronological order, scattered throughout a 3D hallway space</li>
+              <li>Users can navigate through the space using the mouse scroll wheel</li>
               <li>Switch modes to browse in a regular Grid View (portrait / landscape) as well</li>
               <li>Language: TypeScript (strict mode)</li>
               <li>Frontend: Next.js16, React19, CSS 3D Transforms/Perspective</li>
