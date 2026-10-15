@@ -83,7 +83,7 @@
           <div class="mini">
             <ul class="pftextjp">
               <li>システム運用におけるチケット管理システム（簡易版）</li>
-              <li>ID: test@mobi-1.com, PWD: test%147852でログイン</li>
+              <li>DEMOアカウント：ID: test@mobi-1.com, PWD: test%147852でログイン可能</li>
               <li>言語: TypeScript（strictモード）</li>
               <li>
                 フロントエンド: Next.js16 (App Router), React19(Context APIで認証状態を管理するAuth Providerを作成)

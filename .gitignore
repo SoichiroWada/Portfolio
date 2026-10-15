@@ -24,3 +24,5 @@ yarn-error.log*
 /playwright-report/
 /test-results/
 /.cache/
+
+/portfolio/src/Z-Trush
