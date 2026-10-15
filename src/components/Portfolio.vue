@@ -20,15 +20,7 @@
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
-                <iframe
-                  src="src/assets/3DPhotoViewer.jpg"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
+                <img src="@/assets/3DPhotoViewer.jpg" alt="3D Photo Viewer" />
               </div>
             </div>
             <a href="https://dpzxubh0o1hze.cloudfront.net" target="_blank" rel="noopener noreferrer"
@@ -696,6 +688,13 @@ export default {
 .thumbnail iframe {
   opacity: 0;
   transition: all 300ms ease-in-out;
+}
+
+.thumbnail img {
+  display: block;
+  width: 1440px;
+  height: 900px;
+  object-fit: cover;
 }
 
 .overlay {
