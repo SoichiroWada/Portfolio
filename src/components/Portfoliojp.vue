@@ -14,14 +14,14 @@
       <div class="centerlinks">
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://dpzxubh0o1hze.cloudfront.net" class="hlink">3D Photo Viewer</a>
+            <a href="https://dpzxubh0o1hze.cloudfront.net" target="_blank" class="hlink">3D Photo Viewer</a>
             <button class="source" v-on:click="redirect('PhotoViewer3D')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
                 <iframe
-                  src="https://dpzxubh0o1hze.cloudfront.net"
+                  src="src/assets/3DPhotoViewer.jpg"
                   frameborder="0"
                   onload="
                     window.scrollTo(0, 0);
@@ -40,7 +40,7 @@
             <ul class="pftextjp">
               <li>写真画像を時系列でソートして廊下の空間内にばらして設置したイメージ</li>
               <li>モード切替で、通常のGrid View閲覧（縦横表示）も可能</li>
-              <li>言語: TypeScript</li>
+              <li>言語: TypeScript（strictモード）</li>
               <li>フロントエンド: Next.js16, React19, CSS 3D Transforms/Perspective</li>
               <li>画像処理: sharp, exifr, Chokidar, Node.js crypto</li>
               <li>クラウド: AWS CloudFront, Lambda, S3, Cognito, DynamoDB</li>
@@ -50,14 +50,19 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://reactconverter.firebaseapp.com/" class="hlink">Ninja Helpdesk</a>
-            <button class="source" v-on:click="redirect('NinjaHelpdesk')">source code</button>
+            <a
+              href="https://ninja-helpdesk-backend--ninja-helpdesk-de2ee.asia-east1.hosted.app/"
+              target="_blank"
+              class="hlink"
+              >Dojo Helpdesk</a
+            >
+            <button class="source" v-on:click="redirect('DojoHelpdesk')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
                 <iframe
-                  src="https://reactconverter.firebaseapp.com/"
+                  src="https://ninja-helpdesk-backend--ninja-helpdesk-de2ee.asia-east1.hosted.app/"
                   frameborder="0"
                   onload="
                     window.scrollTo(0, 0);
@@ -67,27 +72,31 @@
                 ></iframe>
               </div>
             </div>
-            <a href="https://reactconverter.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
+            <a
+              href="https://ninja-helpdesk-backend--ninja-helpdesk-de2ee.asia-east1.hosted.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               ><div class="thumbnail-container overlay"></div
             ></a>
           </div>
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>Reactjs.orgのサンプルコードを参考にしてコーディング、単位同時変換アプリ。</li>
+              <li>システム運用におけるチケット管理システム（簡易版）</li>
+              <li>ID: test@mobi-1.com, PWD: test%147852でログイン</li>
+              <li>言語: TypeScript（strictモード）</li>
               <li>
-                Controlled input及びData
-                bindingにより、入力可能な箇所のどこに入力しても、瞬時に他のすべての単位を再計算して同時に表示。
+                フロントエンド: Next.js16 (App Router), React19(Context APIで認証状態を管理するAuth Providerを作成)
               </li>
-              <li>使用技術: Javascript, Node.js, React</li>
-              <li>ホスティング: Firebase</li>
+              <li>バックエンド：: Firebase Authentication, Cloud Firestore</li>
+              <li>クラウド: Firebase App Hosting</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://reactconverter.firebaseapp.com/" class="hlink">React Converter</a>
+            <a href="https://reactconverter.firebaseapp.com/" target="_blank" class="hlink">React Converter</a>
             <button class="source" v-on:click="redirect('react-converter')">source code</button>
           </h2>
           <div class="mini">
@@ -111,20 +120,20 @@
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>Reactjs.orgのサンプルコードを参考にしてコーディング、単位同時変換アプリ。</li>
-              <li>
-                Controlled input及びData
-                bindingにより、入力可能な箇所のどこに入力しても、瞬時に他のすべての単位を再計算して同時に表示。
-              </li>
-              <li>使用技術: Javascript, Node.js, React</li>
-              <li>ホスティング: Firebase</li>
+              <li>Reactの特徴を活かした複数単位同時変換アプリ</li>
+              <li>Data bindingにより、どこに入力しても、瞬時に他のすべての単位を再計算して同時に表示</li>
+              <li>数値計算は、decimal.jsにより、30桁の有効数字で計算し、丸目は偶数丸め</li>
+              <li>言語: JavaScript (ES Modules)</li>
+              <li>フロントエンド: React19（関数コンポネント + Hooks）</li>
+              <li>バックエンド：: Firebase Authentication, Cloud Firestore</li>
+              <li>クラウド: Firebase App Hosting</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://calculator-bf6c7.firebaseapp.com/#/" class="hlink">リアクティブ電卓 - Vue CLI</a>
+            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">電卓 - Vue CLI</a>
             <button class="source" v-on:click="redirect('Calculator')">source code</button>
           </h2>
           <div class="mini">
@@ -153,15 +162,15 @@
               </li>
               <li>キーボードからの入力、及びバックスペース利用可能（自動再計算）</li>
               <li>自動的に括弧を付与、計算式をコピーしてgoogleで検算可能</li>
-              <li>使用技術: Javascript, Node.js, Vue CLI, Vue Router</li>
-              <li>ホスティング: Firebase</li>
+              <li>使用技術: Javascript, Node.js, Vue.js, Vue Router</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://materialize-51af2.web.app/" class="hlink">Materialize</a>
+            <a href="https://materialize-51af2.web.app/" target="_blank" class="hlink">Materialize</a>
             <button class="source" v-on:click="redirect('materialize')">source code</button>
           </h2>
           <div class="mini">
@@ -188,14 +197,14 @@
               <li>ネット忍者チュートリアル（Materialize）に沿ってコーディング。</li>
               <li>レスポンシブデザイン</li>
               <li>使用技術: HTML, CSS, Javascript, Materialize</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://marioplan-894e0.firebaseapp.com/" class="hlink">Mario Plan - React</a>
+            <a href="https://marioplan-894e0.firebaseapp.com/" target="_blank" class="hlink">Mario Plan - React</a>
             <button class="source" v-on:click="redirect('marioplan')">source code</button>
           </h2>
           <div class="mini">
@@ -227,14 +236,14 @@
               <li>
                 使用技術: Javascript, React, Redux, Redux-thunk, Firestore (database), Firebase Auth, Firebase Functions
               </li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://ranking-board.firebaseapp.com/" class="hlink">Ranking Board - React</a>
+            <a href="https://ranking-board.firebaseapp.com/" target="_blank" class="hlink">Ranking Board - React</a>
             <button class="source" v-on:click="redirect('ranking')">source code</button>
           </h2>
           <div class="mini">
@@ -264,14 +273,14 @@
               </li>
               <li>MaterializeのCSSグリッドによるスタイルを使用、レスポンシブデザイン。</li>
               <li>使用技術: Javascript, Node.js, React, Materialize</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://materialize-51af2.web.app/" class="hlink">Materialize</a>
+            <a href="https://materialize-51af2.web.app/" target="_blank" class="hlink">Materialize</a>
             <button class="source" v-on:click="redirect('materialize')">source code</button>
           </h2>
           <div class="mini">
@@ -305,7 +314,7 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://css-sass-40f7f.web.app/" class="hlink">SASS</a>
+            <a href="https://css-sass-40f7f.web.app/" target="_blank" class="hlink">SASS</a>
             <button class="source" v-on:click="redirect('sass')">source code</button>
           </h2>
           <div class="mini">
@@ -334,14 +343,14 @@
                 SASSにより、ヘッダー部分のメニューの配置、サービスの3つのメニュー（レコーディング、証明書、スカイプ）など、CSSにおいて全体の幅を指定し、あとは割り算で指定。
               </li>
               <li>使用技術: HTML, CSS, Javascript, SASS</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://react-test-a197a.firebaseapp.com/" class="hlink">Blogs - React</a>
+            <a href="https://react-test-a197a.firebaseapp.com/" target="_blank" class="hlink">Blogs - React</a>
             <button class="source" v-on:click="redirect('poketimes-redux')">source code</button>
           </h2>
           <div class="mini">
@@ -371,14 +380,16 @@
               </li>
               <li>Higher Order ComponentによるAboutページの自動カラー変換。</li>
               <li>使用技術: Javascript, Node.js, React, Redux</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://todo-list-21740.firebaseapp.com/#/" class="hlink">やることリスト - Vue CLI</a>
+            <a href="https://todo-list-21740.firebaseapp.com/#/" target="_blank" class="hlink"
+              >やることリスト - Vue CLI</a
+            >
             <button class="source" v-on:click="redirect('todoVueCLI')">source code</button>
           </h2>
           <div class="mini">
@@ -408,14 +419,16 @@
               </li>
               <li>実施済み、および削除データを再利用する機能を追加、ソート機能を追加</li>
               <li>使用技術: Javascript, Node.js, Vue CLI, Vue Router, Firebase/Firestore (database)</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://ninja-smoothies-2018.firebaseapp.com/#/" class="hlink">忍者スムージーレシピ - Vue CLI</a>
+            <a href="https://ninja-smoothies-2018.firebaseapp.com/#/" target="_blank" class="hlink"
+              >忍者スムージーレシピ - Vue CLI</a
+            >
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -440,14 +453,16 @@
             <ul class="pftextjp">
               <li>ネット忍者のコース課題として作成</li>
               <li>使用技術: Javascript, Node.js, Vue CLI, Firebase/Firestore(database)</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block" id="simon">
           <h2 class="appTitle">
-            <a href="https://simongame-c122a.firebaseapp.com/" class="hlink">サイモンゲーム - Vue CLI</a>
+            <a href="https://simongame-c122a.firebaseapp.com/" target="_blank" class="hlink"
+              >サイモンゲーム - Vue CLI</a
+            >
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -475,14 +490,14 @@
                 CLIで作成
               </li>
               <li>使用技術: Javascript, Node.js, Vue CLI</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" class="hlink">ローカル天気予報</a>
+            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" class="hlink">ローカル天気予報</a>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -509,14 +524,16 @@
               <li>IPアドレスから自動的におおよそのロケーションを割り出して、現在の天気、温度、湿度などの情報を表示</li>
               <li>背景が天気の情報によって変化</li>
               <li>使用技術: Javascript, Bootstrap</li>
-              <li>ホスティング: Codepen</li>
+              <li>クラウド: Codepen</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/yPerQe/" class="hlink">ポモドーロ時計（逆算タイマー）</a>
+            <a href="https://codepen.io/SoichiroW/full/yPerQe/" target="_blank" class="hlink"
+              >ポモドーロ時計（逆算タイマー）</a
+            >
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -542,14 +559,14 @@
               <li>freeCodeCampのコーディングトライアルにおいて作成</li>
               <li>ロケット発射音を使用したカウントダウンタイマー</li>
               <li>使用技術: Javascript, Bootstrap</li>
-              <li>ホスティング: Codepen</li>
+              <li>クラウド: Codepen</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://keycode-finder.firebaseapp.com/" class="hlink">keycodeを表示するアプリ</a>
+            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">keycodeを表示するアプリ</a>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -575,13 +592,15 @@
               <li>開発用のツールとして作成</li>
               <li>2種類のevent.key情報を表示します。（そのうち一つは、コンソールログとして表示）</li>
               <li>使用技術: Javascript, Vue CLI</li>
-              <li>ホスティング: Firebase</li>
+              <li>クラウド: Firebase</li>
             </ul>
           </div>
         </div>
 
         <div class="block">
-          <h2 class="appTitle"><a href="https://codepen.io/SoichiroW/full/xPOmvR/" class="hlink">三目並べ</a></h2>
+          <h2 class="appTitle">
+            <a href="https://codepen.io/SoichiroW/full/xPOmvR/" target="_blank" class="hlink">三目並べ</a>
+          </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
@@ -605,7 +624,7 @@
             <ul class="pftextjp">
               <li>freeCodeCampのトライアルで作成</li>
               <li>使用技術: Javascript, Bootstrap</li>
-              <li>ホスティング: Codepen</li>
+              <li>クラウド: Codepen</li>
             </ul>
           </div>
         </div>
@@ -627,7 +646,7 @@ export default {
         case "PhotoViewer3D":
           window.open("https://github.com/SoichiroWada/PhotoViewer3D");
           break;
-        case "NinjaHelpdesk":
+        case "DojoHelpdesk":
           window.open("https://github.com/SoichiroWada/J-Next13-dojo-helpdesk");
           break;
         case "react-converter":
