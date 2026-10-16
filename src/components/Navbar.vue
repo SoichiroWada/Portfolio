@@ -3,16 +3,14 @@
     <div class="navigation">
       <div class="wrapper" id="nav1" v-show="!isJapanese">
           <div class="nav English">
-            <router-link to="/">Portfolio</router-link> |
-            <router-link to="/resume">Resume</router-link> |
+            <router-link to="/portfolio">Portfolio</router-link> |
             <router-link to="/about">About</router-link> |
             <a v-on:click="changer" id="Ja">日本語</a>
           </div>
       </div>
       <div class="wrapper" id="nav2" v-show="isJapanese">
           <div class="nav Japanese">
-            <router-link to="/portfoliojp">Portfolio</router-link> |
-            <router-link to="/resumejp">Resume</router-link> |
+            <router-link to="/">Portfolio</router-link> |
             <router-link to="/aboutjp">About</router-link> |
             <a v-on:click="changer" id="En">English</a>
           </div>
@@ -24,10 +22,8 @@
 <script>
 const languagePairs = {
   Portfolio: 'Portfoliojp',
-  Resume: 'Resumejp',
   About: 'Aboutjp',
   Portfoliojp: 'Portfolio',
-  Resumejp: 'Resume',
   Aboutjp: 'About',
 }
 
