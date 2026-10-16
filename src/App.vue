@@ -23,6 +23,10 @@ export default {
 </script>
 
 <style>
+h3 span{
+  font-size: 0.92em;
+}
+
 body{
   background-color:white;
 }
