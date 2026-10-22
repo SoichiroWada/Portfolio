@@ -3,6 +3,8 @@ import { test, expect } from '@playwright/test'
 const pages = [
   ['/portfolio', '.portfolio', 'en'],
   ['/', '.portfolio', 'ja'],
+  ['/resume', '.resume', 'en'],
+  ['/resumejp', '.resume', 'ja'],
   ['/about', '.about', 'en'],
   ['/aboutjp', '.aboutjp', 'ja'],
 ]
@@ -30,7 +32,7 @@ for (const [path, selector, language] of pages) {
   })
 }
 
-for (const [english, japanese] of [['/portfolio', '/'], ['/about', '/aboutjp']]) {
+for (const [english, japanese] of [['/portfolio', '/'], ['/resume', '/resumejp'], ['/about', '/aboutjp']]) {
   test(`language switch and browser history: ${english}`, async ({ page }) => {
     await page.goto(`/#${english}`)
     await page.locator('#Ja').click()
@@ -50,6 +52,7 @@ for (const [english, japanese] of [['/portfolio', '/'], ['/about', '/aboutjp']])
 test('navigation links render each English page', async ({ page }) => {
   await page.goto('/#/portfolio')
   for (const [name, path, heading] of [
+    ['Resume', '/resume', 'Soichiro Wada'],
     ['About', '/about', 'Soichiro Wada'],
     ['Portfolio', '/portfolio', "Soichiro's Portfolio"],
   ]) {
@@ -58,26 +61,6 @@ test('navigation links render each English page', async ({ page }) => {
     await expect(page.locator('h1')).toHaveText(heading)
   }
 })
-
-for (const path of ['/resume', '/resumejp']) {
-  test(`deleted Resume page stays unavailable: ${path}`, async ({ page }) => {
-    const errors = []
-    page.on('pageerror', error => errors.push(error.message))
-    await page.goto('/#/')
-    await expect(page.locator('.portfolio').first()).toBeVisible()
-    await expect(page.locator('#navbar a[href*="resume"]')).toHaveCount(0)
-    await page.goto(`/#${path}`)
-    await expect(page.locator('#nav1')).toBeVisible()
-    await expect(page.locator('.resume')).toHaveCount(0)
-    await expect(page.getByText('PROFESSIONAL SUMMARY', { exact: true })).toHaveCount(0)
-    await page.reload()
-    await expect(page.locator('#nav1')).toBeVisible()
-    await expect(page.locator('.resume')).toHaveCount(0)
-    await expect(page.getByText('PROFESSIONAL SUMMARY', { exact: true })).toHaveCount(0)
-    await expect(page.locator('#navbar').getByRole('link', { name: 'Resume', exact: true })).toHaveCount(0)
-    expect(errors).toEqual([])
-  })
-}
 
 test('old Japanese Portfolio URL redirects to the new root', async ({ page }) => {
   await page.goto('/#/portfoliojp')
