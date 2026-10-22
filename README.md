@@ -3,6 +3,7 @@
 Vue 3、Vue Router、Vite を使用した日本語・英語のポートフォリオです。
 ハッシュ形式 URL を使用し、日本語のポートフォリオは `/#/`、英語は `/#/portfolio` で表示します。
 旧日本語 URL `/#/portfoliojp` は `/#/` にリダイレクトします。
+Resume は日本語が `/#/resumejp`、英語が `/#/resume` です。
 
 ## 必要な環境
 
