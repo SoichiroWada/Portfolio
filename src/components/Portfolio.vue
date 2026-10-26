@@ -123,6 +123,7 @@
         <div class="block">
           <h2 class="appTitle">
             <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">Keycode Finder</a>
+            <button class="source" v-on:click="redirect('keytester')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -148,6 +149,7 @@
               <li>Made as a development utility tool</li>
               <li>Displays 3 kinds of event.key info (keydown, keypress, keyup)</li>
               <li>Key combinations (Shift + X) can also be displayed</li>
+              <li>Supports switching between Japanese and English keyboard layouts</li>
               <li>Tech: Javascript, Vue.js</li>
               <li>Hosting: Firebase</li>
             </ul>
@@ -582,6 +584,9 @@ export default {
           break;
         case "react-converter":
           window.open("https://github.com/SoichiroWada/React-Converter");
+          break;
+        case "keytester":
+          window.open("https://github.com/SoichiroWada/keytester");
           break;
         case "LocalWeather":
           window.open("https://github.com/SoichiroWada/K-LocalWeatherApp");
