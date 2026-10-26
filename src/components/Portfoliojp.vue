@@ -30,9 +30,9 @@
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>写真画像を時系列でソートして長い廊下の空間内にばらばらに配置</li>
+              <li>写真画像を時系列でソートして長い廊下の空間内に分散配置</li>
               <li>マウスのホイールで空間内を移動しながら閲覧するイメージ</li>
-              <li>モード切替で、通常のGrid View閲覧（縦横表示）も可能</li>
+              <li>モード切替で、Wall Rotation表示、Grid View表示も可能</li>
               <li>言語: TypeScript（strictモード）</li>
               <li>フロントエンド: Next.js16, React19, CSS 3D Transforms/Perspective</li>
               <li>画像処理: sharp, exifr, Chokidar, Node.js crypto</li>
@@ -54,15 +54,7 @@
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
-                <iframe
-                  src="https://ninja-helpdesk-backend--ninja-helpdesk-de2ee.asia-east1.hosted.app/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
+                <img src="@/assets/Dojo_Helpdesk_image.png" alt="Ninja Dojo Helpdesk" />
               </div>
             </div>
             <a
@@ -126,6 +118,85 @@
 
         <div class="block">
           <h2 class="appTitle">
+            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">keycode表示アプリ</a>
+            <button class="source" v-on:click="redirect('keytester')">source code</button>
+          </h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe
+                  src="https://keycode-finder.firebaseapp.com/"
+                  frameborder="0"
+                  onload="
+                    window.scrollTo(0, 0);
+                    this.style.opacity = 1;
+                  "
+                  scrolling="no"
+                ></iframe>
+              </div>
+            </div>
+            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
+              ><div class="thumbnail-container overlay"></div
+            ></a>
+          </div>
+
+          <div class="mini">
+            <ul class="pftextjp">
+              <li>開発用のツールとして作成</li>
+              <li>3種類のevent.key情報を表示（keydown, keypress, keyup）</li>
+              <li>複合キー（shiftキー + X）も表示可能</li>
+              <li>日本語キーボード、英語キーボード切替対応</li>
+              <li>使用技術: Javascript, Vue.js</li>
+              <li>クラウド: Firebase</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2 class="appTitle">
+            <a href="https://localweather-forecast.web.app/" target="_blank" class="hlink">天気予報</a>
+            <button class="source" v-on:click="redirect('LocalWeather')">source code</button>
+          </h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe
+                  src="https://localweather-forecast.web.app/"
+                  frameborder="0"
+                  onload="
+                    window.scrollTo(0, 0);
+                    this.style.opacity = 1;
+                  "
+                  scrolling="no"
+                ></iframe>
+              </div>
+            </div>
+            <a href="https://localweather-forecast.web.app/" target="_blank" rel="noopener noreferrer"
+              ><div class="thumbnail-container overlay"></div
+            ></a>
+          </div>
+
+          <div class="mini">
+            <ul class="pftextjp">
+              <li>IPアドレスから現在地を推定し、その地域の天気予報を自動で表示</li>
+              <li>今日〜明日の3時間ごとの予報と、週間天気予報（信頼度つき）を表示</li>
+              <li>気象衛星（ひまわり）の画像と雨雲レーダーを重ねた日本地図、天気図を表示</li>
+              <li>言語：TypeScript（strictモード）</li>
+              <li>フロントエンド：Vite、Leaflet、Vanilla TypeScript（フレームワークなし）</li>
+              <li>
+                データ：気象庁
+                防災情報JSON（地域時系列予報・週間予報・ひまわり・降水ナウキャスト・天気図）、国土地理院の地図タイル
+              </li>
+              <li>位置推定：MaxMind GeoLite2 City（Cloud Functionsで週2回自動更新し、SHA-256で照合）</li>
+              <li>
+                クラウド：Firebase Hosting、Cloud Functions（第2世代）、Cloud Storage、Cloud Scheduler、Secret Manager
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2 class="appTitle">
             <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">電卓 - Vue.js</a>
             <button class="source" v-on:click="redirect('Calculator')">source code</button>
           </h2>
@@ -156,40 +227,6 @@
               <li>キーボードからの入力、及びバックスペース利用可能（自動再計算）</li>
               <li>自動的に括弧を付与、計算式をコピーしてgoogleで検算可能</li>
               <li>使用技術: Javascript, Node.js, Vue.js, Vue Router</li>
-              <li>クラウド: Firebase</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">keycode表示アプリ</a>
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://keycode-finder.firebaseapp.com/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftextjp">
-              <li>開発用のツールとして作成</li>
-              <li>3種類のevent.key情報を表示します。（keydown, keypress, keyup）</li>
-              <li>複合キー（shiftキー + X）も表示可能</li>
-              <li>使用技術: Javascript, Vue.js</li>
               <li>クラウド: Firebase</li>
             </ul>
           </div>
@@ -488,40 +525,6 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" class="hlink">ローカル天気予報</a>
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://codepen.io/SoichiroW/full/aLRmoQ/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftextjp">
-              <li>freeCodeCampの課題として作成</li>
-              <li>IPアドレスから自動的におおよそのロケーションを割り出して、現在の天気、温度、湿度などの情報を表示</li>
-              <li>背景が天気の情報によって変化</li>
-              <li>使用技術: Javascript, Bootstrap</li>
-              <li>クラウド: Codepen</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
             <a href="https://codepen.io/SoichiroW/full/xPOmvR/" target="_blank" class="hlink">三目並べ</a>
           </h2>
           <div class="mini">
@@ -574,6 +577,12 @@ export default {
           break;
         case "react-converter":
           window.open("https://github.com/SoichiroWada/React-Converter");
+          break;
+        case "keytester":
+          window.open("https://github.com/SoichiroWada/keytester");
+          break;
+        case "LocalWeather":
+          window.open("https://github.com/SoichiroWada/K-LocalWeatherApp");
           break;
         case "Calculator":
           window.open("https://github.com/SoichiroWada/calculator-vue");
