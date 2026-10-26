@@ -153,6 +153,7 @@
         <div class="block">
           <h2 class="appTitle">
             <a href="https://localweather-forecast.web.app/" target="_blank" class="hlink">天気予報</a>
+            <button class="source" v-on:click="redirect('LocalWeather')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
@@ -574,6 +575,9 @@ export default {
           break;
         case "react-converter":
           window.open("https://github.com/SoichiroWada/React-Converter");
+          break;
+        case "LocalWeather":
+          window.open("https://github.com/SoichiroWada/K-LocalWeatherApp");
           break;
         case "Calculator":
           window.open("https://github.com/SoichiroWada/calculator-vue");

@@ -32,7 +32,7 @@
             <ul class="pftext">
               <li>Photos in chronological order, scattered throughout a 3D hallway space</li>
               <li>Users can navigate through the space using the mouse scroll wheel</li>
-              <li>Can switch view to Wall Rotation View or Grid View</li>
+              <li>Switch modes to display the Wall Rotation view or Grid View as well</li>
               <li>Language: TypeScript (strict mode)</li>
               <li>Frontend: Next.js16, React19, CSS 3D Transforms/Perspective</li>
               <li>Image processing: sharp, exifr, Chokidar, Node.js crypto</li>
@@ -54,15 +54,7 @@
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
-                <iframe
-                  src="https://ninja-helpdesk-backend--ninja-helpdesk-de2ee.asia-east1.hosted.app/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
+                <img src="@/assets/Dojo_Helpdesk_image.png" alt="Ninja Dojo Helpdesk" />
               </div>
             </div>
             <a
@@ -164,13 +156,14 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" class="hlink">Show the Local Weather</a>
+            <a href="https://localweather-forecast.web.app/" target="_blank" class="hlink">Weather Forecast</a>
+            <button class="source" v-on:click="redirect('LocalWeather')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
                 <iframe
-                  src="https://codepen.io/SoichiroW/full/aLRmoQ/"
+                  src="https://localweather-forecast.web.app/"
                   frameborder="0"
                   onload="
                     window.scrollTo(0, 0);
@@ -180,21 +173,30 @@
                 ></iframe>
               </div>
             </div>
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" rel="noopener noreferrer"
+            <a href="https://localweather-forecast.web.app/" target="_blank" rel="noopener noreferrer"
               ><div class="thumbnail-container overlay"></div
             ></a>
           </div>
 
           <div class="mini">
             <ul class="pftext">
-              <li>Made as a freeCodeCamp trial</li>
+              <li>Estimates your location from your IP address and automatically shows the local weather forecast</li>
+              <li>Shows 3-hourly forecasts for today and tomorrow, plus a weekly forecast with reliability ratings</li>
               <li>
-                Location is detected automatically by IP address to show the current weather, temperature, humidity,
-                etc.
+                Shows a map of Japan overlaying Himawari weather satellite imagery and rain radar, plus weather charts
               </li>
-              <li>Background changes according to the weather</li>
-              <li>Tech: Javascript, Bootstrap</li>
-              <li>Hosting: Codepen</li>
+              <li>Language: TypeScript (strict mode)</li>
+              <li>Frontend: Vite, Leaflet, Vanilla TypeScript (no framework)</li>
+              <li>
+                Data: JMA disaster prevention JSON (regional time-series forecast, weekly forecast, Himawari,
+                precipitation nowcast, weather charts), GSI map tiles
+              </li>
+              <li>
+                Geolocation: MaxMind GeoLite2 City (auto-updated twice a week by Cloud Functions, verified with SHA-256)
+              </li>
+              <li>
+                Cloud: Firebase Hosting, Cloud Functions (2nd gen), Cloud Storage, Cloud Scheduler, Secret Manager
+              </li>
             </ul>
           </div>
         </div>
@@ -580,6 +582,9 @@ export default {
           break;
         case "react-converter":
           window.open("https://github.com/SoichiroWada/React-Converter");
+          break;
+        case "LocalWeather":
+          window.open("https://github.com/SoichiroWada/K-LocalWeatherApp");
           break;
         case "Calculator":
           window.open("https://github.com/SoichiroWada/calculator-vue");
