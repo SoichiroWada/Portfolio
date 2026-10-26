@@ -32,7 +32,7 @@
             <ul class="pftext">
               <li>Photos in chronological order, scattered throughout a 3D hallway space</li>
               <li>Users can navigate through the space using the mouse scroll wheel</li>
-              <li>Switch modes to browse in a regular Grid View (portrait / landscape) as well</li>
+              <li>Can switch view to Wall Rotation View or Grid View</li>
               <li>Language: TypeScript (strict mode)</li>
               <li>Frontend: Next.js16, React19, CSS 3D Transforms/Perspective</li>
               <li>Image processing: sharp, exifr, Chokidar, Node.js crypto</li>
@@ -79,7 +79,8 @@
               <li>You can log in with the DEMO account: ID: test@mobi-1.com, PWD: test%147852</li>
               <li>Language: TypeScript (strict mode)</li>
               <li>
-                Frontend: Next.js16 (App Router), React19 (built an Auth Provider managing auth state with the Context API)
+                Frontend: Next.js16 (App Router), React19 (built an Auth Provider managing auth state with the Context
+                API)
               </li>
               <li>Backend: Firebase Authentication, Cloud Firestore</li>
               <li>Cloud: Firebase App Hosting</li>
@@ -114,49 +115,15 @@
           <div class="mini">
             <ul class="pftext">
               <li>Multi-unit simultaneous converter app taking advantage of React's features</li>
-              <li>With data binding, wherever you input a value, all other units are instantly recalculated and displayed at the same time</li>
+              <li>
+                With data binding, wherever you input a value, all other units are instantly recalculated and displayed
+                at the same time
+              </li>
               <li>Numerical calculation with 30 significant digits by decimal.js, using round-half-to-even</li>
               <li>Language: JavaScript (ES Modules)</li>
               <li>Frontend: React19 (function components + Hooks)</li>
               <li>Backend: Firebase Authentication, Cloud Firestore</li>
               <li>Cloud: Firebase App Hosting</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
-            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">Reactive Calculator - Vue.js</a>
-            <button class="source" v-on:click="redirect('Calculator')">source code</button>
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://calculator-bf6c7.firebaseapp.com/#/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftext">
-              <li>
-                Based on a calculator made on Codepen as a freeCodeCamp trial (Javascript, jQuery, Bootstrap),
-                enhanced its functionality and ported it to Vue.js
-              </li>
-              <li>Enabled key input from the keyboard and backspace key (with auto recalculation)</li>
-              <li>Auto brackets generator; copy the formula to verify the result on Google</li>
-              <li>Tech: Javascript, Node.js, Vue.js, Vue Router</li>
-              <li>Hosting: Firebase</li>
             </ul>
           </div>
         </div>
@@ -190,6 +157,82 @@
               <li>Displays 3 kinds of event.key info (keydown, keypress, keyup)</li>
               <li>Key combinations (Shift + X) can also be displayed</li>
               <li>Tech: Javascript, Vue.js</li>
+              <li>Hosting: Firebase</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2 class="appTitle">
+            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" class="hlink">Show the Local Weather</a>
+          </h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe
+                  src="https://codepen.io/SoichiroW/full/aLRmoQ/"
+                  frameborder="0"
+                  onload="
+                    window.scrollTo(0, 0);
+                    this.style.opacity = 1;
+                  "
+                  scrolling="no"
+                ></iframe>
+              </div>
+            </div>
+            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" rel="noopener noreferrer"
+              ><div class="thumbnail-container overlay"></div
+            ></a>
+          </div>
+
+          <div class="mini">
+            <ul class="pftext">
+              <li>Made as a freeCodeCamp trial</li>
+              <li>
+                Location is detected automatically by IP address to show the current weather, temperature, humidity,
+                etc.
+              </li>
+              <li>Background changes according to the weather</li>
+              <li>Tech: Javascript, Bootstrap</li>
+              <li>Hosting: Codepen</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2 class="appTitle">
+            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink"
+              >Calculator - CASIO DENTAKU</a
+            >
+            <button class="source" v-on:click="redirect('Calculator')">source code</button>
+          </h2>
+          <div class="mini">
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe
+                  src="https://calculator-bf6c7.firebaseapp.com/#/"
+                  frameborder="0"
+                  onload="
+                    window.scrollTo(0, 0);
+                    this.style.opacity = 1;
+                  "
+                ></iframe>
+              </div>
+            </div>
+            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" rel="noopener noreferrer"
+              ><div class="thumbnail-container overlay"></div
+            ></a>
+          </div>
+
+          <div class="mini">
+            <ul class="pftext">
+              <li>
+                Based on a calculator made on Codepen as a freeCodeCamp trial (Javascript, jQuery, Bootstrap), enhanced
+                its functionality and ported it to Vue.js
+              </li>
+              <li>Enabled key input from the keyboard and backspace key (with auto recalculation)</li>
+              <li>Auto brackets generator; copy the formula to verify the result on Google</li>
+              <li>Tech: Javascript, Node.js, Vue.js, Vue Router</li>
               <li>Hosting: Firebase</li>
             </ul>
           </div>
@@ -262,7 +305,8 @@
             <ul class="pftext">
               <li>Ranking board app, coded in reference to Reactjs.org sample code.</li>
               <li>
-                After loading the data, click buttons to sort the ranking; toggle between ascending and descending order.
+                After loading the data, click buttons to sort the ranking; toggle between ascending and descending
+                order.
               </li>
               <li>Styled by Materialize CSS grid, responsive design.</li>
               <li>Tech: Javascript, Node.js, React, Materialize</li>
@@ -333,7 +377,8 @@
             <ul class="pftext">
               <li>Coded in Net Ninja's tutorial with SASS.</li>
               <li>
-                With SASS, layouts such as the header menu and the 3 service menus (recording, certificates, Skype) are set by specifying the total width in CSS and dividing it.
+                With SASS, layouts such as the header menu and the 3 service menus (recording, certificates, Skype) are
+                set by specifying the total width in CSS and dividing it.
               </li>
               <li>Tech: HTML, CSS, Javascript, SASS</li>
               <li>Hosting: Firebase</li>
@@ -367,10 +412,7 @@
 
           <div class="mini">
             <ul class="pftext">
-              <li>
-                Coded in Net Ninja's tutorial. State management by action creator and reducer with React /
-                Redux.
-              </li>
+              <li>Coded in Net Ninja's tutorial. State management by action creator and reducer with React / Redux.</li>
               <li>Automatic color change of the About page by a Higher Order Component.</li>
               <li>Tech: Javascript, Node.js, React, Redux</li>
               <li>Hosting: Firebase</li>
@@ -380,9 +422,7 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://todo-list-21740.firebaseapp.com/#/" target="_blank" class="hlink"
-              >Todo List - Vue.js</a
-            >
+            <a href="https://todo-list-21740.firebaseapp.com/#/" target="_blank" class="hlink">Todo List - Vue.js</a>
             <button class="source" v-on:click="redirect('todoVueCLI')">source code</button>
           </h2>
           <div class="mini">
@@ -477,45 +517,11 @@
           <div class="mini">
             <ul class="pftext">
               <li>
-                Improved a game made on Codepen with Javascript, jQuery, Bootstrap as a freeCodeCamp trial and
-                rebuilt it with Vue.js
+                Improved a game made on Codepen with Javascript, jQuery, Bootstrap as a freeCodeCamp trial and rebuilt
+                it with Vue.js
               </li>
               <li>Tech: Javascript, Node.js, Vue.js</li>
               <li>Hosting: Firebase</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="block">
-          <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" class="hlink">Show the Local Weather</a>
-          </h2>
-          <div class="mini">
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe
-                  src="https://codepen.io/SoichiroW/full/aLRmoQ/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" rel="noopener noreferrer"
-              ><div class="thumbnail-container overlay"></div
-            ></a>
-          </div>
-
-          <div class="mini">
-            <ul class="pftext">
-              <li>Made as a freeCodeCamp trial</li>
-              <li>Location is detected automatically by IP address to show the current weather, temperature, humidity, etc.</li>
-              <li>Background changes according to the weather</li>
-              <li>Tech: Javascript, Bootstrap</li>
-              <li>Hosting: Codepen</li>
             </ul>
           </div>
         </div>
