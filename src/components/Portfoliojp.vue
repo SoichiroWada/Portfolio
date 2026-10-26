@@ -32,7 +32,7 @@
             <ul class="pftextjp">
               <li>写真画像を時系列でソートして長い廊下の空間内に分散配置</li>
               <li>マウスのホイールで空間内を移動しながら閲覧するイメージ</li>
-              <li>モード切替で、回転Wall表示、Grid View閲覧も可能</li>
+              <li>モード切替で、Wall Rotation表示、Grid View表示も可能</li>
               <li>言語: TypeScript（strictモード）</li>
               <li>フロントエンド: Next.js16, React19, CSS 3D Transforms/Perspective</li>
               <li>画像処理: sharp, exifr, Chokidar, Node.js crypto</li>
@@ -54,15 +54,7 @@
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
-                <iframe
-                  src="https://ninja-helpdesk-backend--ninja-helpdesk-de2ee.asia-east1.hosted.app/"
-                  frameborder="0"
-                  onload="
-                    window.scrollTo(0, 0);
-                    this.style.opacity = 1;
-                  "
-                  scrolling="no"
-                ></iframe>
+                <img src="@/assets/Dojo_Helpdesk_image.png" alt="Ninja Dojo Helpdesk" />
               </div>
             </div>
             <a
@@ -160,13 +152,13 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" class="hlink">ローカル天気予報</a>
+            <a href="https://localweather-forecast.web.app/" target="_blank" class="hlink">天気予報</a>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
                 <iframe
-                  src="https://codepen.io/SoichiroW/full/aLRmoQ/"
+                  src="https://localweather-forecast.web.app/"
                   frameborder="0"
                   onload="
                     window.scrollTo(0, 0);
@@ -176,18 +168,26 @@
                 ></iframe>
               </div>
             </div>
-            <a href="https://codepen.io/SoichiroW/full/aLRmoQ/" target="_blank" rel="noopener noreferrer"
+            <a href="https://localweather-forecast.web.app/" target="_blank" rel="noopener noreferrer"
               ><div class="thumbnail-container overlay"></div
             ></a>
           </div>
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>freeCodeCampの課題として作成</li>
-              <li>IPアドレスから自動的におおよそのロケーションを割り出して、現在の天気、温度、湿度などの情報を表示</li>
-              <li>背景が天気の情報によって変化</li>
-              <li>使用技術: Javascript, Bootstrap</li>
-              <li>クラウド: Codepen</li>
+              <li>IPアドレスから現在地を推定し、その地域の天気予報を自動で表示</li>
+              <li>今日〜明日の3時間ごとの予報と、週間天気予報（信頼度つき）を表示</li>
+              <li>気象衛星（ひまわり）の画像と雨雲レーダーを重ねた日本地図、天気図を表示</li>
+              <li>言語：TypeScript（strictモード）</li>
+              <li>フロントエンド：Vite、Leaflet、Vanilla TypeScript（フレームワークなし）</li>
+              <li>
+                データ：気象庁
+                防災情報JSON（地域時系列予報・週間予報・ひまわり・降水ナウキャスト・天気図）、国土地理院の地図タイル
+              </li>
+              <li>位置推定：MaxMind GeoLite2 City（Cloud Functionsで週2回自動更新し、SHA-256で照合）</li>
+              <li>
+                クラウド：Firebase Hosting、Cloud Functions（第2世代）、Cloud Storage、Cloud Scheduler、Secret Manager
+              </li>
             </ul>
           </div>
         </div>
