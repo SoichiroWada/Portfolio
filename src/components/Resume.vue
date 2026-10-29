@@ -56,18 +56,18 @@
           <li>Sold liability insurance, fire insurance and others to more than 40 small businesses</li>
         <h3 class="reh3">Verizon Enterprise <span>(Mar 2000 - Oct 2008, 8.5 years, including UUNET Japan / MCI Worldcom Japan)</span></h3>
           <li>Enterprise Sales (Oct 2006 - Oct 2008): in charge of Mitsubishi Electric; proposed and won the global network migration of the Mitsubishi Electric Group, and drove the migration project from Internet IP-VPN to Private IP Service</li>
-          <div>&#x2714 Main products: Private IP Service (MPLS-based global IP-VPN), security solutions (anti-virus / anti-spam, vulnerability assessment, MSS)</div>
+          <div class="reproduct">&#x2714; Main products: Private IP Service (MPLS-based global IP-VPN), security solutions (anti-virus / anti-spam, vulnerability assessment, MSS)</div>
           <li>Wholesale Sales (Jan 2003 - Sep 2006): sales to Internet service providers such as Yahoo Japan, Microsoft and Softbank BB; won a contract of approx. 2 billion JPY (3 years) from Yahoo Japan in Jan 2004</li>
-          <div>&#x2714 Main products: IP Transit, IP Colocation, Managed Hosting</div>
+          <div class="reproduct">&#x2714; Main products: IP Transit, IP Colocation, Managed Hosting</div>
           <li>e-sp Sales (Mar 2000 - Dec 2002): sales to Internet service providers such as Yahoo Japan, J-Stream, Square and Konami; won a contract of approx. 600 million JPY (2 years) from Yahoo Japan in Jan 2001</li>
-          <div>&#x2714 Main products: IP Transit, IP Colocation</div>
+          <div class="reproduct">&#x2714; Main products: IP Transit, IP Colocation</div>
         <h3 class="reh3">ImageONE <span>(Oct 1998 - Feb 2000, 1.5 years)</span></h3>
           <li>As manager of the GEO Business Group, Global Environment Division, negotiated with manufacturers and sold NOAA weather satellite data receiving systems (SMARTech), remote sensing software (RSI) and spectroradiometers (ASD)</li>
         <h3 class="reh3">Fuji Xerox <span>(Apr 1988 - Sep 1998, 10.5 years)</span></h3>
           <li>SOP Product Development Promotion, Assistant Manager (Oct 1997 - Sep 1998): promoted development of a document management system for small offices (Windows NT based)</li>
-          <div>&#x2714 Main products: business scanners / laser printer multifunction devices</div>
+          <div class="reproduct">&#x2714; Main products: business scanners / laser printer multifunction devices</div>
           <li>SOP Sales, Assistant Manager (Oct 1994 - Sep 1997): partner sales to develop sales channels such as DIS, Uchida Yoko, Marubeni Infotec, Sofmap and Yodobashi Camera</li>
-          <div>&#x2714 Main products: multifunction laser printers</div>
+          <div class="reproduct">&#x2714; Main products: multifunction laser printers</div>
           <li>VIP Division (Laser Printer OEM) Sales (Oct 1993 - Sep 1994): OEM sales of laser printers to Ricoh and Fujitsu; achieved sales of 1.5 billion JPY</li>
           <li>M&amp;BP (HQ Business Planning), Business Strategy Group (Oct 1991 - Sep 1993): participated in creating the mid-term business plan and the computer business area plan; created laser printer business model and competitor comparison materials</li>
           <li>AI Sales (Oct 1988 - Oct 1991): sold AI software (Interlisp-D, Smalltalk-80), AI computers (Fuji Xerox 1121 Workstation) and UNIX workstations (Sun SPARCstation)</li>
@@ -147,6 +147,17 @@ export default {
 }
 .retextjp li{
   margin-bottom:0.2em;
+}
+/* Main products line: sit close to the item above, leave more room below */
+.retext li:has(+ .reproduct),
+.retextjp li:has(+ .reproduct){
+  margin-bottom:0.05em;
+}
+.retext .reproduct{
+  margin-bottom:0.6em;
+}
+.retextjp .reproduct{
+  margin-bottom:0.4em;
 }
 h3 span{
   font-size: 0.92em;
