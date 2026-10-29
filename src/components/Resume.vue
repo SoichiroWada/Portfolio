@@ -8,16 +8,16 @@
         <li>Project Manager (3 years)</li>
         <li>Pre-sales Engineer (3.5 years)</li>
         <li>Frontend / Full-stack Developer (10+ years)</li>
-        <li>Software development experience: 10 years for HTML, CSS, JavaScript, 6 years for React/Next.js</li>
-        <li>Core skills are in JavaScript (Node.js), TypeScript, Next.js, React, Firebase and AWS</li>
+        <li>Software development experience: 10 years for HTML, CSS, JavaScript, 6 years for React/Next.js and Python</li>
+        <li>Core skills are in JavaScript (Node.js), TypeScript, Next.js, React, Firebase, Python and AWS</li>
       </ul>
       <h2 class="reh2">SKILLS</h2><hr>
       <ul class="retext">
         <li>Full-stack engineer grounded in web development skills</li>
         <li>Frontend: JavaScript (React, Vue.js, ES6), TypeScript, CSS, HTML</li>
-        <li>Backend: Next.js, Node.js, Express, MongoDB, Firebase, AWS</li>
-        <li>AWS: API Gateway, Lambda, DynamoDB, Cognito, S3, IoT Core, WAF</li>
-        <li>Linux: basic operations on Ubuntu, CentOS, RHEL and other Linux distributions</li>
+        <li>Backend: Next.js, Node.js, Express, MongoDB, Firebase, Python, AWS</li>
+        <li>AWS: API Gateway, Lambda, DynamoDB, Cognito, S3, IoT Core, EC2, WAF</li>
+        <li>Linux: basic operations on Ubuntu, RHEL, CentOS and other Linux distributions</li>
       </ul>
       <h2 class="reh2">AI SKILLS</h2><hr>
       <ul class="retext">

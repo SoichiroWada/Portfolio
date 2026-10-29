@@ -9,17 +9,17 @@
           <li>プロジェクトマネージャー（3年）</li>
           <li>プリセールスエンジニア（3.5年）</li>
           <li>フロントエンド／フルスタック開発エンジニア（10年以上）</li>
-          <li>ソフトウエア開発経験：HTML, CSS, JavaScriptは10年, React/Next.jsは6年</li>
-          <li>コア技術はJavaScript (Node.js), TypeScript, Next.js, React, Firebase, AWS</li>
+          <li>ソフトウエア開発経験：HTML, CSS, JavaScriptは10年, React/Next.js, Pythonは6年</li>
+          <li>コア技術はJavaScript (Node.js), TypeScript, Next.js, React, Firebase, Python, AWS</li>
         </ul>
         <h2 class="reh2">SKILLS</h2>
         <hr>
         <ul class="retextjp">
           <li>Web開発スキルをベースとしたフルスタックエンジニア</li>
           <li>フロントエンド：JavaScript (React, Vue.js, ES6), TypeScript, CSS, HTML</li>
-          <li>バックエンド：Next.js, Node.js, Express, MongoDB, Firebase, AWS</li>
-          <li>AWS：API Gateway, Lambda, DynamoDB, Cognito, S3, IoT Core, WAF</li>
-          <li>Linux：Ubuntu, CentOS, RHEL その他Linuxの基本オペレーション</li>
+          <li>バックエンド：Next.js, Node.js, Express, MongoDB, Firebase, Python, AWS</li>
+          <li>AWS：API Gateway, Lambda, DynamoDB, Cognito, S3, IoT Core, EC2, WAF</li>
+          <li>Linux：Ubuntu, RHEL, CentOS, その他Linuxの基本オペレーション</li>
         </ul>
         <h2 class="reh2">AI SKILLS</h2>
         <hr>
