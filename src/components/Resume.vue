@@ -38,7 +38,7 @@
       <h2 class="reh2">WORK EXPERIENCE</h2><hr>
       <ul class="retext">
         <h3 class="reh3">KDDI Corporation <span>(May 2019 - Mar 2026, 7 years)</span></h3>
-          <li>Supported development of a cloud-based IoT data platform for manufacturing customers</li>
+          <li>Developed a cloud-based IoT data platform for manufacturing customers</li>
           <li>Developed PoCs on short lead times based on customer needs and validated their usability in actual operations</li>
           <li>Supported customer workflows with mobile apps, IoT and cloud</li>
         <h3 class="reh3">Freelance Engineer <span>(Sep 2016 - May 2019, 2.7 years)</span></h3>
@@ -55,9 +55,9 @@
         <h3 class="reh3">AIU Insurance Company <span>(Aug 2009 - Apr 2011, 1.8 years)</span></h3>
           <li>Sold liability insurance, fire insurance and others to more than 40 small businesses</li>
         <h3 class="reh3">Verizon Enterprise <span>(Mar 2000 - Oct 2008, 8.5 years, including UUNET Japan / MCI Worldcom Japan)</span></h3>
-          <li>Verizon Enterprise Sales (Oct 2006 - Oct 2008): in charge of Mitsubishi Electric; proposed and won the global network migration of the Mitsubishi Electric Group, and drove the migration project from Internet IP-VPN to Private IP Service. Main products: Private IP Service (MPLS-based global IP-VPN), security solutions (anti-virus / anti-spam, vulnerability assessment, MSS)</li>
-          <li>MCI Worldcom Japan Wholesale Sales (Jan 2003 - Sep 2006): sales to Internet service providers such as Yahoo Japan, Microsoft and Softbank BB; won a contract of approx. 2 billion JPY (3 years) from Yahoo Japan in Jan 2004. Main products: IP Transit, IP Colocation, Managed Hosting</li>
-          <li>UUNET Japan e-sp Sales (Mar 2000 - Dec 2002): sales to Internet service providers such as Yahoo Japan, J-Stream, Square and Konami; won a contract of approx. 600 million JPY (2 years) from Yahoo Japan in Jan 2001. Main products: IP Transit, IP Colocation</li>
+          <li>Enterprise Sales (Oct 2006 - Oct 2008): in charge of Mitsubishi Electric; proposed and won the global network migration of the Mitsubishi Electric Group, and drove the migration project from Internet IP-VPN to Private IP Service. Main products: Private IP Service (MPLS-based global IP-VPN), security solutions (anti-virus / anti-spam, vulnerability assessment, MSS)</li>
+          <li>Wholesale Sales (Jan 2003 - Sep 2006): sales to Internet service providers such as Yahoo Japan, Microsoft and Softbank BB; won a contract of approx. 2 billion JPY (3 years) from Yahoo Japan in Jan 2004. Main products: IP Transit, IP Colocation, Managed Hosting</li>
+          <li>e-sp Sales (Mar 2000 - Dec 2002): sales to Internet service providers such as Yahoo Japan, J-Stream, Square and Konami; won a contract of approx. 600 million JPY (2 years) from Yahoo Japan in Jan 2001. Main products: IP Transit, IP Colocation</li>
         <h3 class="reh3">ImageONE <span>(Oct 1998 - Feb 2000, 1.5 years)</span></h3>
           <li>As manager of the GEO Business Group, Global Environment Division, negotiated with manufacturers and sold NOAA weather satellite data receiving systems (SMARTech), remote sensing software (RSI) and spectroradiometers (ASD)</li>
         <h3 class="reh3">Fuji Xerox <span>(Apr 1988 - Sep 1998, 10.5 years)</span></h3>
