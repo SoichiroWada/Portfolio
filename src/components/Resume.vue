@@ -19,10 +19,13 @@
         <li>AWS: API Gateway, Lambda, DynamoDB, Cognito, S3, IoT Core, EC2, WAF</li>
         <li>Linux: basic operations on Ubuntu, RHEL, CentOS and other Linux distributions</li>
       </ul>
-      <h2 class="reh2">AI SKILLS</h2><hr>
+      <h2 class="reh2">AI &amp; DEVOPS SKILLS</h2><hr>
       <ul class="retext">
-        <li>Able to use Claude Code, Codex and Antigravity for environment setup, code generation, automated testing, and documentation such as system design documents</li>
-        <li>Building CI / CD workflows optimized for AI-driven system development</li>
+        <li>Streamlining development and testing with AI tools such as Claude Code and Codex</li>
+        <li>Automated builds of Next.js applications integrated with Firebase App Hosting</li>
+        <li>Automated static analysis and unit testing with TypeScript, ESLint and Vitest</li>
+        <li>Design and implementation of Infrastructure as Code (IaC) with AWS CDK</li>
+        <li>Building CI/CD pipelines with GitHub Actions</li>
       </ul>
       <h2 class="reh2">ACHIEVEMENTS</h2><hr>
       <ul class="retext">
@@ -31,9 +34,9 @@
         <li>Built a web marketing site for Tamago-DB and acquired new customers</li>
         <li>At Mobilitysupport, built an EC site for welfare service providers</li>
       </ul>
-      <h2 class="reh2">PERSONAL PROJECTS</h2><hr>
+      <h2 class="reh2">PORTFOLIO APPS</h2><hr>
       <ul class="retext">
-        <li>Built mini projects with JavaScript, TypeScript, Next.js, Node.js and more through courses on Udemy, freeCodeCamp, Node School and The Net Ninja</li>
+        <li><a href="https://personalportfolio2-7808b.firebaseapp.com/" target="_blank" rel="noopener">Personal Portfolio</a></li>
       </ul>
       <h2 class="reh2">WORK EXPERIENCE</h2><hr>
       <ul class="retext">
