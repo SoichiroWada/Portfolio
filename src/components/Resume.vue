@@ -29,9 +29,13 @@
       </ul>
       <h2 class="reh2">ACHIEVEMENTS</h2><hr>
       <ul class="retext">
-        <li>At KDDI, provided development, operation and other technical support for an IoT data platform for manufacturing customers (built on KDDI Cloud Platform + AWS)</li>
-        <li>At KDDI, built and delivered PoCs and demos for security, logistics and retail companies (using mobile web apps, Soracom Button and AWS)</li>
-        <li>Built a web marketing site for Tamago-DB and acquired new customers</li>
+        <li>At KDDI, provided development, operation and other technical support for an IoT data platform for manufacturing customers
+          <div>(data platform built on KDDI Cloud Platform + AWS)</div>
+        </li>
+        <li>Provided technical support such as network proposals and security measures in line with feature expansions</li>
+        <li>Created PoCs and gave demos for security companies, major wholesalers, home improvement stores and mass retailers</li>
+        <li>Delivered apps using mobile web apps and Soracom Button, built on AWS</li>
+        <li>At Tamago-DB, built a website for web marketing and acquired new customers</li>
         <li>At Mobilitysupport, built an EC site for welfare service providers</li>
       </ul>
       <h2 class="reh2">PORTFOLIO APPS</h2><hr>
@@ -41,20 +45,29 @@
       <h2 class="reh2">WORK EXPERIENCE</h2><hr>
       <ul class="retext">
         <h3 class="reh3">KDDI Corporation <span>(May 2019 - Mar 2026, 7 years)</span></h3>
-          <li>Developed a cloud-based IoT data platform for manufacturing customers</li>
+          <li>Developed an IoT data platform for a major manufacturer (maker of factory equipment and machinery)</li>
+          <li>As an SE, engaged end to end from requirements definition through development, testing and security assessment</li>
+          <li>Phases covered: requirements definition, basic design, detailed design, development, testing, security assessment and operations</li>
+          <div>(detailed design and development were mainly done by partner companies)</div>
+          <li>Created PoCs and gave demos for security companies, major wholesalers, home improvement stores and mass retailers, winning 7 contracts</li>
           <li>Developed PoCs on short lead times based on customer needs and validated their usability in actual operations</li>
-          <li>Supported customer workflows with mobile apps, IoT and cloud</li>
+          <li>Developed apps supporting customer workflows (mobile apps / IoT / AWS, GCP)</li>
         <h3 class="reh3">Freelance Engineer <span>(Sep 2016 - May 2019, 2.7 years)</span></h3>
           <li>Provided web marketing and web development support to micro to mid-sized companies</li>
-          <li>Provided migration of mail services to GSuite, website development with WordPress, and more</li>
+          <li>Built a website for a recruitment agency</li>
+          <li>Built a website for a non-life insurance agency, and email marketing using policy expiration data in its database</li>
+          <li>Introduced a firewall (FortiGate) at a tax accounting firm, and customer information management with Google Workspace</li>
+          <li>Provided migration of mail services to Google Workspace, website development with WordPress, and more</li>
         <h3 class="reh3">Network Value Components Ltd <span>(Mar 2016 - Aug 2016, 6 months)</span></h3>
           <li>Provided sales activities for security products such as FortiGate, vArmour and ThreatSTOP</li>
           <li>Provided marketing activities to acquire pilot users for the new product RedSeal</li>
         <h3 class="reh3">Tamago-DB Corp <span>(Apr 2015 - Oct 2015, 6 months)</span></h3>
-          <li>Generated sales leads for a cloud service for recruitment agencies by building a marketing website integrated with an email marketing service</li>
+          <li>Built a marketing website integrated with MailChimp</li>
+          <li>Generated sales leads for a cloud service for recruitment agencies</li>
         <h3 class="reh3">Mobilitysupport LLC <span>(Jun 2011 - Mar 2015, 3.7 years)</span></h3>
-          <li>Built and operated an EC site of care equipment for a company selling accounting systems to care service providers</li>
-          <li>Provided consulting on messaging and IT security, and promoted office IT with GSuite, Office 365 and AWS</li>
+          <li>Built and operated an EC site of care equipment in partnership with a company selling accounting systems to care service providers</li>
+          <li>Provided consulting on messaging and IT security</li>
+          <div>Promoted office IT with Google Workspace, Office 365 and AWS</div>
         <h3 class="reh3">AIU Insurance Company <span>(Aug 2009 - Apr 2011, 1.8 years)</span></h3>
           <li>Sold liability insurance, fire insurance and others to more than 40 small businesses</li>
         <h3 class="reh3">Verizon Enterprise <span>(Mar 2000 - Oct 2008, 8.5 years, including UUNET Japan / MCI Worldcom Japan)</span></h3>
