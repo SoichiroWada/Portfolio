@@ -55,7 +55,7 @@
         <h2 class="reh2">経歴要約</h2>
         <hr />
         <ul class="retextjp">
-          <h3 class="reh3">KDDI株式会社 <span>(May 2019 – Mar 2026, 7年)</span></h3>
+          <h3 class="reh3">KDDI株式会社 <span>DX・IoTソリューション部 (May 2019 – Mar 2026, 6.8年)</span></h3>
           <li>大手製造業（工場設備機械を製造）向けIoTデータ・プラットフォーム開発</li>
           <li>SEとして要件定義、開発、テスト、セキュリティ診断まで、一貫して従事</li>
           <li>担当フェーズは、要件定義、基本設計、詳細設計、開発、テスト、セキュリティ診断、運用</li>
