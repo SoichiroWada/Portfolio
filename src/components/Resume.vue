@@ -44,7 +44,7 @@
       </ul>
       <h2 class="reh2">WORK EXPERIENCE</h2><hr>
       <ul class="retext">
-        <h3 class="reh3">KDDI Corporation <span>(May 2019 - Mar 2026, 7 years)</span></h3>
+        <h3 class="reh3">KDDI Corporation <span>DX&IoT Solution Group (May 2019 - Mar 2026, 6.8 years)</span></h3>
           <li>Developed an IoT data platform for a major manufacturer (maker of factory equipment and machinery)</li>
           <li>As an SE, engaged end to end from requirements definition through development, testing and security assessment</li>
           <li>Phases covered: requirements definition, basic design, detailed design, development, testing, security assessment and operations</li>
