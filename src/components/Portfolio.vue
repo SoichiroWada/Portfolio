@@ -122,14 +122,14 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">Keycode Finder</a>
-            <button class="source" v-on:click="redirect('keytester')">source code</button>
+            <a href="https://keytouch-visualizer.web.app/" target="_blank" class="hlink">Keytouch Visualizer</a>
+            <button class="source" v-on:click="redirect('KeytouchVisualizer')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
                 <iframe
-                  src="https://keycode-finder.firebaseapp.com/"
+                  src="https://keytouch-visualizer.web.app/"
                   frameborder="0"
                   onload="
                     window.scrollTo(0, 0);
@@ -139,19 +139,24 @@
                 ></iframe>
               </div>
             </div>
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
+            <a href="https://keytouch-visualizer.web.app/" target="_blank" rel="noopener noreferrer"
               ><div class="thumbnail-container overlay"></div
             ></a>
           </div>
 
           <div class="mini">
             <ul class="pftext">
-              <li>Made as a development utility tool</li>
-              <li>Displays 3 kinds of event.key info (keydown, keypress, keyup)</li>
-              <li>Key combinations (Shift + X) can also be displayed</li>
-              <li>Supports switching between Japanese and English keyboard layouts</li>
-              <li>Tech: Javascript, Vue.js</li>
-              <li>Hosting: Firebase</li>
+              <li>
+                Visualizes pressed keys on a US 104-key / JIS 109-key keyboard with a green glow (simultaneous presses and key repeat supported)
+              </li>
+              <li>Displays keydown / keypress / keyup event info (key, code, keyCode, charCode)</li>
+              <li>
+                Transparent line-drawn hands move each of the 10 fingers to its touch-typing key (adjustable opacity and speed)
+              </li>
+              <li>Language: TypeScript (strict mode)</li>
+              <li>Frontend: Vite8, React19, Motion for React, SVG (finger animation with Bézier curves)</li>
+              <li>Testing: Vitest, React Testing Library, Playwright</li>
+              <li>Cloud: Firebase Hosting (auto-deployed by GitHub Actions after CI passes)</li>
             </ul>
           </div>
         </div>
@@ -585,8 +590,8 @@ export default {
         case "react-converter":
           window.open("https://github.com/SoichiroWada/React-Converter");
           break;
-        case "keytester":
-          window.open("https://github.com/SoichiroWada/keytester");
+        case "KeytouchVisualizer":
+          window.open("https://github.com/SoichiroWada/KeytouchVisualizer");
           break;
         case "LocalWeather":
           window.open("https://github.com/SoichiroWada/K-LocalWeatherApp");
