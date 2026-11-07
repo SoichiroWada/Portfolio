@@ -118,14 +118,14 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" class="hlink">keycode表示アプリ</a>
-            <button class="source" v-on:click="redirect('keytester')">source code</button>
+            <a href="https://keytouch-visualizer.web.app/" target="_blank" class="hlink">Keytouch Visualizer</a>
+            <button class="source" v-on:click="redirect('KeytouchVisualizer')">source code</button>
           </h2>
           <div class="mini">
             <div class="thumbnail-container">
               <div class="thumbnail">
                 <iframe
-                  src="https://keycode-finder.firebaseapp.com/"
+                  src="https://keytouch-visualizer.web.app/"
                   frameborder="0"
                   onload="
                     window.scrollTo(0, 0);
@@ -135,19 +135,20 @@
                 ></iframe>
               </div>
             </div>
-            <a href="https://keycode-finder.firebaseapp.com/" target="_blank" rel="noopener noreferrer"
+            <a href="https://keytouch-visualizer.web.app/" target="_blank" rel="noopener noreferrer"
               ><div class="thumbnail-container overlay"></div
             ></a>
           </div>
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>開発用のツールとして作成</li>
-              <li>3種類のevent.key情報を表示（keydown, keypress, keyup）</li>
-              <li>複合キー（shiftキー + X）も表示可能</li>
-              <li>日本語キーボード、英語キーボード切替対応</li>
-              <li>使用技術: Javascript, Vue.js</li>
-              <li>クラウド: Firebase</li>
+              <li>US 104キー／JIS 109キー配列で、押したキーを緑色に発光表示（同時押し・リピート対応）</li>
+              <li>keydown / keypress / keyupのイベント情報（key, code, keyCode, charCode）を表示</li>
+              <li>透明な線画の手が、タッチタイピングの担当指ごとにキーへ動くアニメーション（透明度・速度調整可）</li>
+              <li>言語: TypeScript（strictモード）</li>
+              <li>フロントエンド: Vite8, React19, Motion for React, SVG（ベジェ曲線による指アニメーション）</li>
+              <li>テスト: Vitest, React Testing Library, Playwright</li>
+              <li>クラウド: Firebase Hosting（GitHub ActionsでCI成功後に自動デプロイ）</li>
             </ul>
           </div>
         </div>
@@ -578,8 +579,8 @@ export default {
         case "react-converter":
           window.open("https://github.com/SoichiroWada/React-Converter");
           break;
-        case "keytester":
-          window.open("https://github.com/SoichiroWada/keytester");
+        case "KeytouchVisualizer":
+          window.open("https://github.com/SoichiroWada/KeytouchVisualizer");
           break;
         case "LocalWeather":
           window.open("https://github.com/SoichiroWada/K-LocalWeatherApp");
