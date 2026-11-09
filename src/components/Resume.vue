@@ -45,13 +45,37 @@
       <h2 class="reh2">WORK EXPERIENCE</h2><hr>
       <ul class="retext">
         <h3 class="reh3">KDDI Corporation <span>DX&IoT Solution Group (May 2019 - Mar 2026, 6.8 years)</span></h3>
-          <li>Developed an IoT data platform for a major manufacturer (maker of factory equipment and machinery)</li>
-          <li>As an SE, engaged end to end from requirements definition through development, testing and security assessment</li>
-          <li>Phases covered: requirements definition, basic design, detailed design, development, testing, security assessment and operations</li>
-          <div>(detailed design and development were mainly done by partner companies)</div>
-          <li>Created PoCs and gave demos for security companies, major wholesalers, home improvement stores and mass retailers, winning 7 contracts</li>
-          <li>Developed PoCs on short lead times based on customer needs and validated their usability in actual operations</li>
-          <li>Developed apps supporting customer workflows (mobile apps / IoT / AWS, GCP)</li>
+          <div class="reproj"><strong>[Project] IoT Data Platform Development for a Major Manufacturer (Factory Equipment)</strong></div>
+          <li>Period: Jun 2024 - Mar 2026</li>
+          <li>Overview: Developed a system to monitor the operating status of machinery at end users' factories. As an SE, engaged end to end from requirements definition through testing.</li>
+          <li>Responsibilities:</li>
+          <div class="resub">- Requirements definition, basic design, detailed design, development, testing and maintenance (about 60% of detailed design and development was done by partner companies)</div>
+          <div class="resub">- Security assessment response</div>
+          <li>Environment / Languages:</li>
+          <div class="resub">- OS: RHEL 9.4, DB: PostgreSQL, Languages: PHP, SQL, JavaScript, Others: AWS Direct Connect, AWS PrivateLink</div>
+          <li>Team: 4 developers, 2 testers, 1 PM</li>
+          <li>Role: Systems Engineer / Project Manager</li>
+          <br />
+          <div class="reproj"><strong>[Project] AI Chat Development for a Major Manufacturer (Factory Equipment)</strong></div>
+          <li>Period: Sep 2022 - Sep 2023</li>
+          <li>Overview: Developed an AI chat for maintenance staff of factory machinery</li>
+          <li>Responsibilities:</li>
+          <div class="resub">- Requirements definition and basic design (detailed design and development were done by an in-house dedicated team)</div>
+          <div class="resub">- Acceptance testing</div>
+          <li>Environment / Languages: Microsoft 365, SharePoint, Azure AI</li>
+          <li>Team: 6 developers, 1 PM</li>
+          <li>Role: Systems Engineer / Project Leader</li>
+          <br />
+          <div class="reproj"><strong>[Other Projects]</strong></div>
+          <li>Proposed an emergency dispatch support system for incidents to a major security company</li>
+          <li>Proposed a patrol security support system to a mid-tier security company</li>
+          <li>Proposed and deployed a store staff call system (using SORACOM buttons) for a major home improvement retailer</li>
+          <li>Proposed and deployed a congestion display system using people-counting for a major fitness service provider's 24-hour gym business</li>
+          <li>Proposed a delivery support system (visualizing the delivery status of partner carriers) and a PoC to a major grocery delivery company</li>
+          <li>Proposed a vital sensing solution (heatstroke prevention, fall detection) to a major grocery delivery company</li>
+          <li>Proposed a drone security PoC (KDDI Smart Drone, etc.) to a mid-tier security company</li>
+          <li>Proposed and deployed a meter reading system for refinery sites of the largest petroleum refiner and distributor</li>
+          <li>Proposed a robot image analysis system trial using 5G x Wavelength to a mid-tier security company (PM)</li>
         <h3 class="reh3">Freelance Engineer <span>(Sep 2016 - May 2019, 2.7 years)</span></h3>
           <li>Provided web marketing and web development support to micro to mid-sized companies</li>
           <li>Built a website for a recruitment agency</li>
@@ -174,6 +198,20 @@ export default {
 }
 .retextjp .reproduct{
   margin-bottom:0.4em;
+}
+/* "- " sub-lines: sit close to the bullet above, keep normal bullet spacing below the last one */
+.retext li:has(+ .resub){
+  margin-bottom:0.15em;
+}
+.retext .resub{
+  margin-bottom:0.15em;
+}
+.retext .resub:has(+ li){
+  margin-bottom:0.5em;
+}
+/* Project heading lines: same gap below as between bullets */
+.retext .reproj{
+  margin-bottom:0.5em;
 }
 h3 span{
   font-size: 0.92em;
