@@ -236,13 +236,22 @@
           <div class="mini">
             <ul class="pftext">
               <li>
-                Based on a calculator made on Codepen as a freeCodeCamp trial (Javascript, jQuery, Bootstrap), enhanced
-                its functionality and ported it to Vue.js
+                Switch between Calculator mode (sequential: 2+3*4=20) and Mathematics mode (operator precedence:
+                2+3*4=14), with nested parentheses
               </li>
-              <li>Enabled key input from the keyboard and backspace key (with auto recalculation)</li>
-              <li>Auto brackets generator; copy the formula to verify the result on Google</li>
-              <li>Tech: Javascript, Node.js, Vue.js, Vue Router</li>
-              <li>Hosting: Firebase</li>
+              <li>
+                Three-line display of input history, working expression, and result (auto parentheses show the
+                evaluation order in Calculator mode)
+              </li>
+              <li>
+                Calculates up to 512 significant digits with decimal.js; selectable display digits (Full/10/16/20/30)
+                and thousands separators
+              </li>
+              <li>Full keyboard support (numeric keypad, BS, memory M+ / M− / MR / MC, etc.)</li>
+              <li>Language: JavaScript (ES Modules)</li>
+              <li>Frontend: Vite8, Vue3, Vue Router5</li>
+              <li>Testing: Node.js test runner, ESLint</li>
+              <li>Cloud: Firebase Hosting (auto-deployed by GitHub Actions after a PR is merged and tests/lint pass)</li>
             </ul>
           </div>
         </div>
