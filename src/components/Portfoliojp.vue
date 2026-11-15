@@ -221,14 +221,14 @@
 
           <div class="mini">
             <ul class="pftextjp">
-              <li>
-                freeCodeCampの課題としてCodepen上で作成(Javascript, jQuery, Bootstrap)
-                したものをベースとして、機能を強化してVue.jsに移植
-              </li>
-              <li>キーボードからの入力、及びバックスペース利用可能（自動再計算）</li>
-              <li>自動的に括弧を付与、計算式をコピーしてgoogleで検算可能</li>
-              <li>使用技術: Javascript, Node.js, Vue.js, Vue Router</li>
-              <li>クラウド: Firebase</li>
+              <li>電卓モード（逐次計算: 2+3*4=20）と数学モード（演算子の優先順位: 2+3*4=14）を切替、括弧のネストに対応</li>
+              <li>入力履歴・途中式・結果の3段表示（電卓モードでは計算順序を示す括弧を自動付与）</li>
+              <li>decimal.jsで有効数字512桁まで計算、表示桁数（Full/10/16/20/30桁）と3桁区切りを切替可能</li>
+              <li>キーボード操作に対応（テンキー、BS、メモリ M+ / M− / MR / MC など）</li>
+              <li>言語: JavaScript (ES Modules)</li>
+              <li>フロントエンド: Vite8, Vue3, Vue Router5</li>
+              <li>テスト: Node.js test runner, ESLint</li>
+              <li>クラウド: Firebase Hosting（PRマージ後、GitHub Actionsでテスト・Lint通過後に自動デプロイ）</li>
             </ul>
           </div>
         </div>
