@@ -211,7 +211,7 @@
         <div class="block">
           <h2 class="appTitle">
             <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink"
-              >Calculator - CASIO DENTAKU</a
+              >CASIO DENTAKU - Calculator</a
             >
             <button class="source" v-on:click="redirect('Calculator')">source code</button>
           </h2>

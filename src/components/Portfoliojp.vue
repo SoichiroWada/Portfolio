@@ -198,7 +198,7 @@
 
         <div class="block">
           <h2 class="appTitle">
-            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">電卓 - Vue.js</a>
+            <a href="https://calculator-bf6c7.firebaseapp.com/#/" target="_blank" class="hlink">Casio電卓</a>
             <button class="source" v-on:click="redirect('Calculator')">source code</button>
           </h2>
           <div class="mini">
